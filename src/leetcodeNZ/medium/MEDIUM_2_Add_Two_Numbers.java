@@ -1,8 +1,5 @@
 package leetcodeNZ.medium;
 
-import java.util.LinkedList;
-import java.util.List;
-
 /**
  * Created by hanshihui on 16/01/19.
  *
@@ -25,7 +22,7 @@ class ListNode {
       ListNode(int x) { val = x; }
 }
 
-public class MEDIUM_2_Add_Two_Numbers {
+public class Medium_2_Add_Two_Numbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         String str1 = "";
@@ -42,15 +39,15 @@ public class MEDIUM_2_Add_Two_Numbers {
             str2 += l2.val;
             l2 = l2.next;
         }
-
-        str2 = String.valueOf(new Integer(str1) + new Integer(str2));
+        
+        str2 = String.valueOf(Integer.parseInt(str1) + Integer.parseInt(str2));
 
         ListNode node = null;
         int strLength = str2.length();
         for (int i = 0; i < strLength; i++)
         {
             String singleNum = str2.substring(strLength -1 - i, strLength - i);
-            Integer curVal = new Integer(singleNum);
+            Integer curVal = Integer.parseInt(singleNum);
             if(node == null)
             {
                 node = new ListNode(curVal);
@@ -105,7 +102,7 @@ public class MEDIUM_2_Add_Two_Numbers {
 //        int[] array2 = {5,6,4};
         int[] array1 = {1,8};
         int[] array2 = {0};
-        MEDIUM_2_Add_Two_Numbers m = new MEDIUM_2_Add_Two_Numbers();
+        Medium_2_Add_Two_Numbers m = new Medium_2_Add_Two_Numbers();
         ListNode node2 = m.insertNode(array1);
 
         ListNode node5 = m.insertNode(array2);

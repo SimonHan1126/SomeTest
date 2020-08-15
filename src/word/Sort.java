@@ -1,9 +1,6 @@
 package word;
 
-import org.jetbrains.annotations.Contract;
-
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class Sort {
@@ -14,7 +11,7 @@ public class Sort {
         for(String code : rCodeArr)
         {
             code = code.replace("R","");
-            codeNumberList.add(new Integer(code));
+            codeNumberList.add(Integer.parseInt(code));
         }
 
         String result = "";

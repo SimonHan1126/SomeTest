@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by hanshihui on 17/01/19.
  */
-public class MEDIUM_6_ZIGZAG_CONVERSION {
+public class Medium_6_zigzag_coversion {
     public String convert(String s, int numRows) {
 
         if(numRows <= 1)
@@ -57,7 +57,7 @@ public class MEDIUM_6_ZIGZAG_CONVERSION {
     }
 
     public static void main(String[] args) {
-        MEDIUM_6_ZIGZAG_CONVERSION m = new MEDIUM_6_ZIGZAG_CONVERSION();
+        Medium_6_zigzag_coversion m = new Medium_6_zigzag_coversion();
         System.out.println(m.convert("SUPPORT",2));
 //        System.out.println(m.convert("AB",1));
     }

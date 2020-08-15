@@ -1,12 +1,9 @@
 package leetcodeNZ.medium;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by hanshihui on 17/01/19.
  */
-public class MEDIUM_3_LONGEST_NO_REPEAT_C {
+public class Medium_3_longest_no_repeat_character {
     public int lengthOfLongestSubstring(String s) {
         int length = 0;
         if(s.length() <= 0)
@@ -40,7 +37,7 @@ public class MEDIUM_3_LONGEST_NO_REPEAT_C {
     }
 
     public static void main(String[] args) {
-        MEDIUM_3_LONGEST_NO_REPEAT_C m = new MEDIUM_3_LONGEST_NO_REPEAT_C();
+        Medium_3_longest_no_repeat_character m = new Medium_3_longest_no_repeat_character();
         int a = m.lengthOfLongestSubstring("dvdf");
         int b = 0;//m.lengthOfLongestSubstring("bbbbbb");
         int c = 0;//m.lengthOfLongestSubstring("pwwkew");
