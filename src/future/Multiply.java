@@ -1,0 +1,28 @@
+package future;
+
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+
+public class Multiply implements Runnable {
+	
+	public static BlockingQueue<Msg> bq = new LinkedBlockingQueue<Msg>();
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		while(true)
+		{
+			Msg msg;
+			try {
+				msg = bq.take();
+				msg.i = msg.i * msg.j;
+				Div.bq.add(msg);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+	}
+
+}

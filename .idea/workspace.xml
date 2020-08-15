@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SomeTest" />
+    <favorites_list name="CodeIris Favorites" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Sequence" />
+        <option value="package-info" />
+        <option value="UML Class" />
+        <option value="UML Use Case" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZY6bbiYarojE7N1PzDg3J4NOdH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/youtubeSrtToTxt/youtubeSrtFile" />
+      <recent name="$PROJECT_DIR$/src/test180105" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/execl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test180105" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hazelcast44" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReadWordDoc">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="EASY_7_Reverse_Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.easy.EASY_7_Reverse_Integer" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeNZ.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HARD_140_Word_Break_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.hard.HARD_140_Word_Break_II" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeNZ.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JosephusKill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="itinterview.link.JosephusKill" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itinterview.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadWordDoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="word.ReadWordDoc" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="word.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="word.Sort" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="word.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.EASY_7_Reverse_Integer" />
+      <item itemvalue="Application.JosephusKill" />
+      <item itemvalue="Application.HARD_140_Word_Break_II" />
+      <item itemvalue="Application.ReadWordDoc" />
+      <item itemvalue="Application.Sort" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReadWordDoc" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.HARD_140_Word_Break_II" />
+        <item itemvalue="Application.JosephusKill" />
+        <item itemvalue="Application.EASY_7_Reverse_Integer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="" />
+      <created>1512526474618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512526474618</updated>
+      <workItem from="1512526483401" duration="3968000" />
+      <workItem from="1512532045789" duration="1156000" />
+      <workItem from="1512536688599" duration="246000" />
+      <workItem from="1512536964638" duration="384000" />
+      <workItem from="1512537389049" duration="141000" />
+      <workItem from="1512537558786" duration="316000" />
+      <workItem from="1512537935195" duration="920000" />
+      <workItem from="1512541629272" duration="3327000" />
+      <workItem from="1512545254045" duration="438000" />
+      <workItem from="1512567504070" duration="8719000" />
+      <workItem from="1512654387113" duration="4505000" />
+      <workItem from="1512810514081" duration="28437000" />
+      <workItem from="1513086496148" duration="2083000" />
+      <workItem from="1513090401558" duration="269000" />
+      <workItem from="1513090992663" duration="165000" />
+      <workItem from="1513091176133" duration="9000" />
+      <workItem from="1513091292435" duration="1736000" />
+      <workItem from="1513130638202" duration="48687000" />
+      <workItem from="1513864512878" duration="129000" />
+      <workItem from="1513864795479" duration="495000" />
+      <workItem from="1513866620053" duration="6544000" />
+      <workItem from="1514016450531" duration="6378000" />
+      <workItem from="1514260721576" duration="4439000" />
+      <workItem from="1514346109314" duration="1241000" />
+      <workItem from="1514365430860" duration="26000" />
+      <workItem from="1514449645404" duration="61000" />
+      <workItem from="1514515939150" duration="73000" />
+      <workItem from="1514649537968" duration="2753000" />
+      <workItem from="1514944678707" duration="1594000" />
+      <workItem from="1515145840516" duration="3488000" />
+      <workItem from="1515244725163" duration="10209000" />
+      <workItem from="1515482077137" duration="4277000" />
+      <workItem from="1515555102018" duration="5614000" />
+      <workItem from="1516249198453" duration="2385000" />
+      <workItem from="1516600751393" duration="2085000" />
+      <workItem from="1516778361390" duration="571000" />
+      <workItem from="1517984677185" duration="1496000" />
+      <workItem from="1518084102062" duration="275000" />
+      <workItem from="1518084469069" duration="1065000" />
+      <workItem from="1518275437453" duration="250000" />
+      <workItem from="1518946226891" duration="518000" />
+      <workItem from="1520125619937" duration="13000" />
+      <workItem from="1520489219904" duration="19000" />
+      <workItem from="1520832098355" duration="46000" />
+      <workItem from="1521519483756" duration="2954000" />
+      <workItem from="1521710792715" duration="482000" />
+      <workItem from="1522314575427" duration="134000" />
+      <workItem from="1523172306851" duration="979000" />
+      <workItem from="1524123797328" duration="20000" />
+      <workItem from="1524129901038" duration="497000" />
+      <workItem from="1524193405549" duration="8092000" />
+      <workItem from="1524624959735" duration="4880000" />
+      <workItem from="1524669808360" duration="322000" />
+      <workItem from="1525942827982" duration="528000" />
+      <workItem from="1526268701626" duration="12442000" />
+      <workItem from="1526513106598" duration="4000" />
+      <workItem from="1526553130734" duration="216000" />
+      <workItem from="1527153972602" duration="1329000" />
+      <workItem from="1527570312160" duration="1575000" />
+      <workItem from="1528104041093" duration="1428000" />
+      <workItem from="1528442178544" duration="17000" />
+      <workItem from="1528691335099" duration="490000" />
+      <workItem from="1529899699878" duration="1323000" />
+      <workItem from="1530239142961" duration="724000" />
+      <workItem from="1538208887765" duration="15000" />
+      <workItem from="1547604139030" duration="27268000" />
+      <workItem from="1547711812253" duration="6225000" />
+      <workItem from="1550275127423" duration="51000" />
+      <workItem from="1554068828987" duration="55000" />
+      <workItem from="1560474612134" duration="349000" />
+      <workItem from="1562293453301" duration="6239000" />
+      <workItem from="1566549035132" duration="12828000" />
+      <workItem from="1566881891292" duration="90000" />
+      <workItem from="1567143533576" duration="6914000" />
+      <workItem from="1568521122500" duration="295000" />
+      <workItem from="1585003766231" duration="12470000" />
+      <workItem from="1585101357965" duration="137000" />
+      <workItem from="1585296792902" duration="9859000" />
+      <workItem from="1588624454951" duration="1166000" />
+      <workItem from="1588990985874" duration="5705000" />
+      <workItem from="1589074396212" duration="391000" />
+      <workItem from="1597465705923" duration="245000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="241" y="-863" key="#Inspections" timestamp="1585006239657">
+      <screen x="-319" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="241" y="-863" key="#Inspections/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585006239657" />
+    <state x="-1147" y="-38" key="#com.intellij.ide.util.MemberChooser" timestamp="1588993231008">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="-1147" y="-38" key="#com.intellij.ide.util.MemberChooser/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1588993231008" />
+    <state x="436" y="-838" key="#com.intellij.ide.util.MemberChooser/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585018399019" />
+    <state width="1876" height="482" key="GridCell.Tab.0.bottom" timestamp="1589057501035">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="482" key="GridCell.Tab.0.bottom/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501035" />
+    <state width="1236" height="223" key="GridCell.Tab.0.bottom/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588801692195" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585351651878" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585019234048" />
+    <state width="1876" height="464" key="GridCell.Tab.0.bottom/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620235" />
+    <state width="1876" height="482" key="GridCell.Tab.0.center" timestamp="1589057501034">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="482" key="GridCell.Tab.0.center/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501034" />
+    <state width="1236" height="223" key="GridCell.Tab.0.center/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588801692192" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585351651875" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585019234046" />
+    <state width="1876" height="464" key="GridCell.Tab.0.center/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620228" />
+    <state width="1876" height="482" key="GridCell.Tab.0.left" timestamp="1589057501032">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="482" key="GridCell.Tab.0.left/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501032" />
+    <state width="1236" height="223" key="GridCell.Tab.0.left/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588801692191" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585351651874" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585019234045" />
+    <state width="1876" height="464" key="GridCell.Tab.0.left/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620207" />
+    <state width="1876" height="482" key="GridCell.Tab.0.right" timestamp="1589057501035">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="482" key="GridCell.Tab.0.right/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501035" />
+    <state width="1236" height="223" key="GridCell.Tab.0.right/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588801692192" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585351651876" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585019234047" />
+    <state width="1876" height="464" key="GridCell.Tab.0.right/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620234" />
+    <state width="1876" height="482" key="GridCell.Tab.1.bottom" timestamp="1589057501037">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="482" key="GridCell.Tab.1.bottom/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501037" />
+    <state width="1876" height="464" key="GridCell.Tab.1.bottom/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585348924453" />
+    <state width="1876" height="464" key="GridCell.Tab.1.bottom/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620242" />
+    <state width="1876" height="482" key="GridCell.Tab.1.center" timestamp="1589057501036">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="482" key="GridCell.Tab.1.center/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501036" />
+    <state width="1876" height="464" key="GridCell.Tab.1.center/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585348924452" />
+    <state width="1876" height="464" key="GridCell.Tab.1.center/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620240" />
+    <state width="1876" height="482" key="GridCell.Tab.1.left" timestamp="1589057501036">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="482" key="GridCell.Tab.1.left/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501036" />
+    <state width="1876" height="464" key="GridCell.Tab.1.left/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585348924451" />
+    <state width="1876" height="464" key="GridCell.Tab.1.left/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620239" />
+    <state width="1876" height="482" key="GridCell.Tab.1.right" timestamp="1589057501036">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="482" key="GridCell.Tab.1.right/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501036" />
+    <state width="1876" height="464" key="GridCell.Tab.1.right/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585348924452" />
+    <state width="1876" height="464" key="GridCell.Tab.1.right/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620241" />
+    <state x="367" y="-645" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585345396333">
+      <screen x="-319" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="367" y="-645" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585345396333" />
+    <state x="309" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588625144572">
+      <screen x="0" y="23" width="1280" height="737" />
+    </state>
+    <state x="309" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588625144572" />
+    <state x="288" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1585018223060">
+      <screen x="-337" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="288" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585018223060" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/easy/ImplementStrStr.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/easy/EASY_1_Two_Sum.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/easy/EASY_1_Two_Sum.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/easy/EASY_1_Two_Sum.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/easy/EASY_1_Two_Sum.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_3_LONGEST_NO_REPEAT_C.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_6_ZIGZAG_CONVERSION.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SomeTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>smack-core-4.2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile1" value="file://$PROJECT_DIR$/../test.suml" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../com.google.gson.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

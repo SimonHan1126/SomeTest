@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="smack-core-4.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/smack-core-4.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
