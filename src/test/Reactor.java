@@ -43,8 +43,8 @@ public class Reactor implements Runnable {
             while (!Thread.interrupted())
             {
                 selector.select();
-                Set selected = selector.selectedKeys();
-                Iterator it = selected.iterator();
+                Set<SelectionKey> selected = selector.selectedKeys();
+                Iterator<SelectionKey> it = selected.iterator();
                 //Selector如果发现channel有OP_ACCEPT或READ事件发生，下列遍历就会进行。
                 //来一个事件 第一次触发一个accepter线程 　　　　　　　　
                 // 以后触发SocketReadHandler 　　　　　　

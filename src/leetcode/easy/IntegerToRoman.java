@@ -1,8 +1,5 @@
 package leetcode.easy;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class IntegerToRoman {
 
 	public String intToRoman(int num) {

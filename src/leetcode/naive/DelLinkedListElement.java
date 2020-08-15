@@ -1,7 +1,5 @@
 package leetcode.naive;
 
-import java.util.LinkedList;
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -18,17 +16,17 @@ public class DelLinkedListElement {
      * @param val: An integer
      * @return: a ListNode
      */
-    public ListNode removeElements(ListNode head, int val) {
-        // write your code here
-    	 for (ListNode node = head; node != null; ) {
-    		 ListNode next = node.next;
-         }
-    	return null;
-    }
-    
-    public static void main(String[] args) {
-		LinkedList<ListNode> lList = new LinkedList<ListNode>();
-	}
+//    public ListNode removeElements(ListNode head, int val) {
+//        // write your code here
+//    	 for (ListNode node = head; node != null; ) {
+//    		 ListNode next = node.next;
+//         }
+//    	return null;
+//    }
+//    
+//    public static void main(String[] args) {
+//		LinkedList<ListNode> lList = new LinkedList<ListNode>();
+//	}
 }
 
 

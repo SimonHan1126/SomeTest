@@ -1,13 +1,10 @@
 package test;
-
-import java.net.InetAddress;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
 import static org.junit.Assert.*;
 
 import java.text.ParseException;
-import java.util.function.Predicate;
 
 /**
  * @author hanshihui
@@ -110,8 +107,8 @@ public class Test {
         list.add("lili");
         list.add("luck");
         list.add("7777");
-        Predicate<String> pred = name -> "lili".equals(name);
-        list.remove(pred);
+//        Predicate<String> pred = name -> "lili".equals(name);
+//        list.remove(pred);
         System.out.println(list);
 
         int a=5,b=7;

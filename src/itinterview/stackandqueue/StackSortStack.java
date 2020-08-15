@@ -8,7 +8,7 @@ import java.util.Stack;
  * Created by hanshihui on 2017/12/9.
  */
 public class StackSortStack {
-    public Stack sort(Stack<Integer> stack)
+    public Stack<Integer> sort(Stack<Integer> stack)
     {
         if(stack == null || stack.isEmpty())
         {
@@ -31,7 +31,7 @@ public class StackSortStack {
             }
 
             tempStack.push(num);
-            stack.remove(new Integer(num));
+            stack.remove(Integer.valueOf(num));
         }
         return tempStack;
     }

@@ -8,7 +8,7 @@ import java.util.concurrent.*;
  * @date 2018/1/5
  */
 public class ThreadPoolTestOne {
-    private static Executor executor = Executors.newFixedThreadPool(10);
+//    private static Executor executor = Executors.newFixedThreadPool(10);
 
     private static ExecutorService executorService = new ThreadPoolExecutor(10, 10,0L,TimeUnit.MILLISECONDS,new LinkedBlockingQueue<Runnable>());
 

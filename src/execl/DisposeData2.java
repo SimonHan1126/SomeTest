@@ -25,38 +25,38 @@ import net.sf.json.JSONObject;
 public class DisposeData2 
 {
 	
-	private static Map<String,String> getWhiteList(String fileName)
-	{
-		Map<String,String> whiteMap = new HashMap<String,String>();
-		
-		String temp = "";
-		try {
-			
-			File file = new File(fileName);
-			FileInputStream fis = new FileInputStream(file);
-			InputStreamReader isr = new InputStreamReader(fis);
-			BufferedReader br = new BufferedReader(isr);
-			StringBuffer buffer = new StringBuffer();
-
-			while ((temp = br.readLine()) != null) {
-				buffer.append(temp);
-			}
-
-			JSONObject jsonObject = JSONObject.fromObject(buffer.toString());
-			Iterator<String> sIterator = jsonObject.keys();  
-			while(sIterator.hasNext()){  
-				
-				String key = sIterator.next(); 
-				whiteMap.put(key, key);
-			}
-			
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			System.out.println("loadViewerAndGuardData " + e.toString());
-			e.printStackTrace();
-		}
-		return whiteMap;
-	}
+//	private static Map<String,String> getWhiteList(String fileName)
+//	{
+//		Map<String,String> whiteMap = new HashMap<String,String>();
+//		
+//		String temp = "";
+//		try {
+//			
+//			File file = new File(fileName);
+//			FileInputStream fis = new FileInputStream(file);
+//			InputStreamReader isr = new InputStreamReader(fis);
+//			BufferedReader br = new BufferedReader(isr);
+//			StringBuffer buffer = new StringBuffer();
+//
+//			while ((temp = br.readLine()) != null) {
+//				buffer.append(temp);
+//			}
+//			br.close();
+//			JSONObject jsonObject = JSONObject.fromObject(buffer.toString());
+//			Iterator<String> sIterator = jsonObject.keys();  
+//			while(sIterator.hasNext()){  
+//				
+//				String key = sIterator.next(); 
+//				whiteMap.put(key, key);
+//			}
+//			
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			System.out.println("loadViewerAndGuardData " + e.toString());
+//			e.printStackTrace();
+//		}
+//		return whiteMap;
+//	}
 	
 	private static void detailJSONToRoomJSON(Map<String,String> whiteMap,String fileName)
 	{
@@ -71,9 +71,8 @@ public class DisposeData2
 			while ((temp = br.readLine()) != null) {
 				buffer.append(temp);
 			}
-
-			String fileContent = buffer.toString();
-//			System.out.println(fileContent);
+			br.close();
+			//			System.out.println(fileContent);
 			JSONObject finalJsonObj = new JSONObject();
 			JSONArray array = JSONArray.fromObject(buffer.toString());
 			for(int i = 0; i < array.size(); i++)
@@ -83,7 +82,7 @@ public class DisposeData2
 				String roomid = obj.getString("roomid");
 				if(roomid != null && roomid.length() > 0)
 				{
-					String targetRoomId = whiteMap.get(roomid);
+//					String targetRoomId = whiteMap.get(roomid);
 					//需要过滤白名单时去掉if判断
 //					if(targetRoomId != null && targetRoomId.length() > 0)
 //					{
@@ -127,6 +126,7 @@ public class DisposeData2
 		}
 	}
 	
+	@SuppressWarnings("unchecked")
 	private static void getFinalJSON()
 	{
 		String temp = "";
@@ -141,8 +141,8 @@ public class DisposeData2
 			while ((temp = br.readLine()) != null) {
 				buffer.append(temp);
 			}
-
-			long ONE_HOUR = 3600;
+			br.close();
+//			long ONE_HOUR = 3600;
 			JSONObject jsonObject = JSONObject.fromObject(buffer.toString());
 			JSONObject finalExportJsonObj = new JSONObject();
 			Iterator<String> sIterator = jsonObject.keys();  
@@ -169,7 +169,7 @@ public class DisposeData2
 					long currentMicroTime = currentMicroInfo.getLong("time");
 					
 					int nextIndex = i++;
-					String nextMicType = arrayJson.getJSONObject(nextIndex).getString("mictype");
+//					String nextMicType = arrayJson.getJSONObject(nextIndex).getString("mictype");
 					while("1".equals(arrayJson.getJSONObject(nextIndex).getString("mictype")))
 					{
 						
@@ -276,7 +276,7 @@ public class DisposeData2
 			while ((temp = br.readLine()) != null) {
 				buffer.append(temp);
 			}
-
+			br.close();
 			// 鍒涘缓HSSFWorkbook瀵硅薄
 			HSSFWorkbook wb = new HSSFWorkbook();
 			// 鍒涘缓HSSFSheet瀵硅薄
@@ -302,6 +302,7 @@ public class DisposeData2
 			rowNo = 0;
 			JSONObject jsonObject = JSONObject.fromObject(buffer.toString());
 			long ONE_HOUR = 3600;
+			@SuppressWarnings("unchecked")
 			Iterator<String> anchorIterator = jsonObject.keys();
 			while (anchorIterator.hasNext()) {
 				String anchorId = anchorIterator.next();
@@ -312,6 +313,7 @@ public class DisposeData2
 				HSSFCell cellAncorId = row.createCell(rowNo++);
 				cellAncorId.setCellValue(anchorId);
 
+				@SuppressWarnings("unchecked")
 				Iterator<String> dateToTimeIterator = achorMicroInfo.keys();
 				while (dateToTimeIterator.hasNext()) {
 					String date = dateToTimeIterator.next();

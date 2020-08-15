@@ -24,7 +24,7 @@ public class CalCount {
         while ((temp = br.readLine()) != null) {
             buffer.append(temp);
         }
-
+        br.close();
         JSONArray jsonArray = JSONArray.fromObject(buffer.toString());
         double totalCount = 21462367.79;
         List<Double> list = new ArrayList<Double>();
@@ -33,11 +33,11 @@ public class CalCount {
 
         for (int i = 0; i < jsonArray.size() - 1; i++) {
             JSONObject jsonObjct = jsonArray.getJSONObject(i);
-//            double itemCount = jsonObjct.getDouble("1071000");
-//            System.out.print((i + 1) + " " + nf.format(itemCount) + " + " + nf.format(totalCount));
-//            totalCount += itemCount;
-//            System.out.print(" = " + nf.format(totalCount));
-//            System.out.println();
+            double itemCount = jsonObjct.getDouble("1071000");
+            System.out.print((i + 1) + " " + nf.format(itemCount) + " + " + nf.format(totalCount));
+            totalCount += itemCount;
+            System.out.print(" = " + nf.format(totalCount));
+            System.out.println();
             list.add(jsonObjct.getDouble("1071000"));
         }
 

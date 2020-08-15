@@ -42,7 +42,7 @@ public class IntegerSort {
 	public static void main(String[] args) {
 		IntegerSort is = new IntegerSort();
 		int[] oldArray = {5,1,8,3,6,9,2};
-		int[] newArray = is.sortIntegers(oldArray);
+//		int[] newArray = is.sortIntegers(oldArray);
 		is.printArray(oldArray);
 	}
 }

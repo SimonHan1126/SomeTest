@@ -8,7 +8,7 @@ public class TimeFormat {
 	public static void main(String[] args) {
 		String res;
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-		long lt = new Long("1509534257") * 1000L;
+		long lt = Long.valueOf("1509534257") * 1000L;
 		Date date = new Date(lt);
 		res = simpleDateFormat.format(date);
 		System.out.println(res);
@@ -27,7 +27,7 @@ public class TimeFormat {
 		// e.printStackTrace();
 		// }
 
-		String time = "02";
+//		String time = "02";
 		// int value = Integer.valueOf(time);
 		String kkkk = "2017-11-05";
 		String iiii = kkkk.substring(kkkk.length() - 2, kkkk.length());
@@ -36,16 +36,16 @@ public class TimeFormat {
 //		int value = Integer.valueOf(iiii);
 //		System.out.println(value);
 
-		Integer i = new Integer(1);
-		int sldkfj = Integer.MAX_VALUE;
-		char value[] = {'1','2'};
+//		Integer i = new Integer(1);
+//		int sldkfj = Integer.MAX_VALUE;
+//		char value[] = {'1','2'};
 //		value = "".value;
 //		System.out.println("".value);
 		
 //		boolean b1 = (0.99999999f==1f); //true 
-		boolean b1 = (0.999999998f==1f); //true 
-		boolean b2 = (0.9f==1f); //false
-		System.out.println(b1 + " " + b2);
+//		boolean b1 = (0.999999998f==1f); //true
+//		boolean b2 = (0.9f==1f); //false
+//		System.out.println(b1 + " " + b2);
 		
 		HashMap<String, String> map = new HashMap<>();
 		map.put("11", "22");

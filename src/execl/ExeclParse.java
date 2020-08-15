@@ -51,6 +51,7 @@ public class ExeclParse {
 	}
 
 	// 由指定的Sheet导出至List
+	@SuppressWarnings("deprecation")
 	public static void exportListFromExcel() throws IOException {
 
 		SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd");
@@ -67,7 +68,6 @@ public class ExeclParse {
 			// Workbook workbook = WorkbookFactory.create(is); // 这种方式
 			// Excel2003/2007/2010都是可以处理的
 
-			int sheetCount = workbook.getNumberOfSheets(); // Sheet的数量
 			/**
 			 * 设置当前excel中sheet的下标：0开始
 			 */
@@ -91,7 +91,7 @@ public class ExeclParse {
 					if (cell.toString() == null) {
 						continue;
 					}
-					int cellType = cell.getCellType();
+					int cellType = cell.getCellType(); 
 					String cellValue = "";
 					switch (cellType) {
 					case Cell.CELL_TYPE_STRING: // 文本
@@ -136,6 +136,7 @@ public class ExeclParse {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	public static void jsonToExcel() throws Exception {
 		Set<String> keys = null;
 		// 创建HSSFWorkbook对象
@@ -184,6 +185,7 @@ public class ExeclParse {
 		output.close();
 	}
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws Exception {
 		// exportListFromExcel();
 //		jsonToExcel();
@@ -199,7 +201,7 @@ public class ExeclParse {
 			while ((temp = br.readLine()) != null) {
 				buffer.append(temp);
 			}
-
+			br.close();
 			// 创建HSSFWorkbook对象
 			HSSFWorkbook wb = new HSSFWorkbook();
 			// 创建HSSFSheet对象

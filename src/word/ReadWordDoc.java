@@ -27,7 +27,7 @@ public class ReadWordDoc {
      */
 
     private static Map<String, String> subCharacteristicsMap;
-    private static Map<String, String> mainCharacteristicsMap;
+//    private static Map<String, String> mainCharacteristicsMap;
     private static List<String> listMainCharacteristics;
     private static List<String> listFourViews;
 
@@ -75,6 +75,7 @@ public class ReadWordDoc {
                         }
                     }
                 }
+                xwpf.close();
             }
         }catch(Exception e) {
             e.printStackTrace();
@@ -83,7 +84,7 @@ public class ReadWordDoc {
 
     private static void init()
     {
-        subCharacteristicsMap = new HashMap();
+		subCharacteristicsMap = new HashMap<String, String>();
 //        mainCharacteristicsMap = new HashMap<>();
         listMainCharacteristics = new ArrayList<>();
         subCharacteristicsMap.put("functional completeness","functional suitability");
@@ -185,8 +186,46 @@ public class ReadWordDoc {
         private String characteristic;
         private int numberOfRequirements;
         private String architecturalView;
+        
+        
 
-        public NewRequirementInfo(String characteristic, int numberOfRequirements, String architecturalView) {
+        public String getCharacteristic() {
+			return characteristic;
+		}
+
+
+
+		public void setCharacteristic(String characteristic) {
+			this.characteristic = characteristic;
+		}
+
+
+
+		public int getNumberOfRequirements() {
+			return numberOfRequirements;
+		}
+
+
+
+		public void setNumberOfRequirements(int numberOfRequirements) {
+			this.numberOfRequirements = numberOfRequirements;
+		}
+
+
+
+		public String getArchitecturalView() {
+			return architecturalView;
+		}
+
+
+
+		public void setArchitecturalView(String architecturalView) {
+			this.architecturalView = architecturalView;
+		}
+
+
+
+		public NewRequirementInfo(String characteristic, int numberOfRequirements, String architecturalView) {
             this.characteristic = characteristic;
             this.numberOfRequirements = numberOfRequirements;
             this.architecturalView = architecturalView;

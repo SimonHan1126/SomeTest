@@ -1,20 +1,14 @@
 package test;
 
-import com.google.gson.Gson;
-
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.Serializable;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Created by hanshihui on 2018/1/19.
  */
 public class GsonTest {
 
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
 //        Map<String,Serializable> map = new HashMap<>(10);
 //        map.put("1000",new Cat("wocaolei","123"));
 //        map.put("1001",new Cat("wocaolei111","234"));
@@ -58,60 +52,60 @@ public class GsonTest {
             e.printStackTrace();
         }
 
-        InputStreamReader ir = new InputStreamReader(process.getInputStream());
+//        InputStreamReader ir = new InputStreamReader(process.getInputStream());
     }
 }
 
-class Cat implements Serializable
-{
-    private String name;
-    private String age;
-
-    public Cat(String name, String age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAge() {
-        return age;
-    }
-
-    public void setAge(String age) {
-        this.age = age;
-    }
-}
-
-class Dog implements Serializable
-{
-    private String height;
-    private String weight;
-
-    public Dog(String height, String weight) {
-        this.height = height;
-        this.weight = weight;
-    }
-
-    public String getHeight() {
-        return height;
-    }
-
-    public void setHeight(String height) {
-        this.height = height;
-    }
-
-    public String getWeight() {
-        return weight;
-    }
-
-    public void setWeight(String weight) {
-        this.weight = weight;
-    }
-}
+//class Cat implements Serializable
+//{
+//    private String name;
+//    private String age;
+//
+//    public Cat(String name, String age) {
+//        this.name = name;
+//        this.age = age;
+//    }
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public String getAge() {
+//        return age;
+//    }
+//
+//    public void setAge(String age) {
+//        this.age = age;
+//    }
+//}
+//
+//class Dog implements Serializable
+//{
+//    private String height;
+//    private String weight;
+//
+//    public Dog(String height, String weight) {
+//        this.height = height;
+//        this.weight = weight;
+//    }
+//
+//    public String getHeight() {
+//        return height;
+//    }
+//
+//    public void setHeight(String height) {
+//        this.height = height;
+//    }
+//
+//    public String getWeight() {
+//        return weight;
+//    }
+//
+//    public void setWeight(String weight) {
+//        this.weight = weight;
+//    }
+//}

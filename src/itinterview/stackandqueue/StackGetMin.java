@@ -70,18 +70,18 @@ public class StackGetMin {
         min.push(0);
 
         try {
-            int min1 = min.getMin();
-            int min2 = min.getMin();
-            min.pop();
-            int min3 = min.getMin();
-            int min4 = min.getMin();
-            min.pop();
-            int min5 = min.getMin();
-            min.pop();
-            int min6 = min.getMin();
-            int min7 = min.getMin();
-            min.pop();
-            int min8 = min.getMin();
+//            int min1 = min.getMin();
+//            int min2 = min.getMin();
+//            min.pop();
+//            int min3 = min.getMin();
+//            int min4 = min.getMin();
+//            min.pop();
+//            int min5 = min.getMin();
+//            min.pop();
+//            int min6 = min.getMin();
+//            int min7 = min.getMin();
+//            min.pop();
+//            int min8 = min.getMin();
             min.pop();
         } catch (Exception e) {
             e.printStackTrace();

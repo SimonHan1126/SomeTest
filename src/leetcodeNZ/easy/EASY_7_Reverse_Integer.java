@@ -29,7 +29,7 @@ public class EASY_7_Reverse_Integer {
             finalStr += cArray[i];
         }
 
-        long finalResult = isPositive == true ? new Long(finalStr) : -new Long(finalStr);
+        long finalResult = isPositive == true ? Long.valueOf(finalStr) : -Long.valueOf(finalStr);
         if(finalResult > Integer.MAX_VALUE)
         {
             return 0;

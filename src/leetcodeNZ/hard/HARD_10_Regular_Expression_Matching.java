@@ -22,10 +22,10 @@ public class HARD_10_Regular_Expression_Matching {
             }
         }
 
-        char[] sCharArray = s.toCharArray();
+//        char[] sCharArray = s.toCharArray();
         char[] pCharArray = p.toCharArray();
 
-        int sCharArrayLength = sCharArray.length;
+//        int sCharArrayLength = sCharArray.length;
         int pCharArrayLength = pCharArray.length;
 
 //        if(sCharArrayLength < pCharArrayLength)
@@ -33,7 +33,7 @@ public class HARD_10_Regular_Expression_Matching {
 //            return false;
 //        }
 
-        int sCharArrayIndex = 0;
+//        int sCharArrayIndex = 0;
         int pCharArrayIndex = 0;
         for(;pCharArrayIndex < pCharArrayLength;)
         {

@@ -52,7 +52,7 @@ public class SocketReadHandler {
         input.clear();
         try {
 
-            int bytesRead = socket.read(input);
+//            int bytesRead = socket.read(input);
 
             //　　　　......
 

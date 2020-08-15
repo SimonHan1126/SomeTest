@@ -1,7 +1,6 @@
 package leetcodeNZ.hard;
 
 import java.util.*;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * Created by hanshihui on 26/08/19.
@@ -166,46 +165,46 @@ public class HARD_140_Word_Break_II {
         return b;
     }
 
-    private List<String> wordBreak4(String content, List<String> wordDictList)
-    {
-        List<String> resultList = new ArrayList<String>();
-
-        if(content.length() <= 0 || wordDictList.size() <= 0)
-        {
-            return resultList;
-        }
-
-        Map<String, Integer> mapWordDict = new HashMap<String, Integer>();
-
-        for (String itemWordDict : wordDictList)
-        {
-            mapWordDict.put(itemWordDict, content.indexOf(itemWordDict));
-        }
-
-        while (isAllKeyWordBeFound(mapWordDict))
-        {
-            String copiedContent = content;
-            for(int i = 0; i < copiedContent.length();)
-            {
-
-            }
-        }
-
-        return resultList;
-    }
+//    private List<String> wordBreak4(String content, List<String> wordDictList)
+//    {
+//        List<String> resultList = new ArrayList<String>();
+//
+//        if(content.length() <= 0 || wordDictList.size() <= 0)
+//        {
+//            return resultList;
+//        }
+//
+//        Map<String, Integer> mapWordDict = new HashMap<String, Integer>();
+//
+//        for (String itemWordDict : wordDictList)
+//        {
+//            mapWordDict.put(itemWordDict, content.indexOf(itemWordDict));
+//        }
+//
+//        while (isAllKeyWordBeFound(mapWordDict))
+//        {
+//            String copiedContent = content;
+//            for(int i = 0; i < copiedContent.length();)
+//            {
+//
+//            }
+//        }
+//
+//        return resultList;
+//    }
 
 
     public static void main(String[] args) {
-        HARD_140_Word_Break_II hard = new HARD_140_Word_Break_II();
-        String[] strArrOne = {"cat", "cats", "and", "sand", "dog"};
+//        HARD_140_Word_Break_II hard = new HARD_140_Word_Break_II();
+//        String[] strArrOne = {"cat", "cats", "and", "sand", "dog"};
         String[] strArrTwo = {"apple", "pen", "applepen", "pine", "pineapple"};
-        String[] strArrThree = {"cats", "dog", "sand", "and", "cat"};
-        List<String> listOne   = new ArrayList<String>(Arrays.asList(strArrOne));
+//        String[] strArrThree = {"cats", "dog", "sand", "and", "cat"};
+//        List<String> listOne   = new ArrayList<String>(Arrays.asList(strArrOne));
         List<String> listTwo   = new ArrayList<String>(Arrays.asList(strArrTwo));
-        List<String> listThree = new ArrayList<String>(Arrays.asList(strArrThree));
-        String str1 = "catsanddog";
+//        List<String> listThree = new ArrayList<String>(Arrays.asList(strArrThree));
+//        String str1 = "catsanddog";
         String str2 = "pineapplepenapple";
-        String str3 = "catsandog";
+//        String str3 = "catsandog";
 
 
 

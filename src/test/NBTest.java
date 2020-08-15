@@ -7,10 +7,7 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
-import java.text.NumberFormat;
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 import java.util.concurrent.*;
 
@@ -23,7 +20,7 @@ public class NBTest implements Runnable{
     public void startServer() throws Exception {
         int channels = 0;
         int nKeys = 0;
-        int currentSelector = 0;
+//        int currentSelector = 0;
         //使用Selector 　　
         Selector selector = Selector.open();
         //建立Channel 并绑定到9000端口 　　
@@ -47,8 +44,8 @@ public class NBTest implements Runnable{
                 debug("NBTest: Number of keys after select operation: " + nKeys);
                 //Selector传回一组SelectionKeys 　　　　　　
                 // 我们从这些key中的channel()方法中取得我们刚刚注册的channel。 　　　　　　
-                Set selectedKeys = selector.selectedKeys();
-                Iterator i = selectedKeys.iterator();
+                Set<SelectionKey> selectedKeys = selector.selectedKeys();
+                Iterator<SelectionKey> i = selectedKeys.iterator();
                 while (i.hasNext()) {
                     s = (SelectionKey) i.next();
                     printKeyInfo(s);
@@ -147,8 +144,8 @@ public class NBTest implements Runnable{
         }
 
 
-//        System.out.println(isContainHour + " " + isContainMinute + " " + indexOfHour + " " + indexOfMinute);
-//        System.out.println(hour + " " + minute);
+        System.out.println(isContainHour + " " + isContainMinute + " " + indexOfHour + " " + indexOfMinute);
+        System.out.println(hour + " " + minute);
 
         ExecutorService executor =  Executors.newCachedThreadPool();
         executor.execute(new NBTest());
@@ -195,13 +192,6 @@ public class NBTest implements Runnable{
         System.out.println("KKKKKKKKKKK 22222 " + s1.equals(s2));
 
         System.out.println("this NBTest run");
-
-        List<String> list = new ArrayList<>();
-
-        for(String ste : list)
-        {
-
-        }
     }
 }
 

@@ -81,7 +81,7 @@ public class TwoStackQueue {
 
     }
 
-    private boolean copyToAnotherStack(Stack originalStack, Stack targetStack) {
+    private boolean copyToAnotherStack(Stack<Integer> originalStack, Stack<Integer> targetStack) {
         if(originalStack.isEmpty() || !targetStack.isEmpty())
         {
             return false;
@@ -103,9 +103,9 @@ public class TwoStackQueue {
             int curRandomNum = r.nextInt(100);
             if(curRandomNum > 66)
             {
-                int peekNum = 0;
+//                int peekNum = 0;
                 try {
-                    peekNum = tsq.peek();
+//                    peekNum = tsq.peek();
 //                    System.out.println("peedNum " + peekNum);
                 } catch (Exception e) {
                     tsq.add(whileTimes);

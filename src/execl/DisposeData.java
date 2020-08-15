@@ -20,7 +20,7 @@ public class DisposeData {
 
     private static final String VIDEO_BEGIN = "1";
     private static final String VIDEO_END = "0";
-    private static final long ONE_HOUR = 3600;
+//    private static final long ONE_HOUR = 3600;
 
     private static String getContentFromFile(String fileName) throws IOException {
         File file = new File(fileName);
@@ -32,67 +32,69 @@ public class DisposeData {
         while ((temp = br.readLine()) != null) {
             buffer.append(temp);
         }
-
+        br.close();
         return buffer.toString();
     }
 
-    private static void genExecel() throws IOException {
-        HSSFWorkbook wb = new HSSFWorkbook();
-        // 鍒涘缓HSSFSheet瀵硅薄
-        HSSFSheet sheet = wb.createSheet("sheet0");
+//    @SuppressWarnings("deprecation")
+//	private static void genExecel() throws IOException {
+//        HSSFWorkbook wb = new HSSFWorkbook();
+//        // 鍒涘缓HSSFSheet瀵硅薄
+//        HSSFSheet sheet = wb.createSheet("sheet0");
+//
+//        int roleNo = 0;
+//        int rowNo = 0;
+//        HSSFRow firstRow = sheet.createRow(roleNo++);
+//        String title[]= {"日期","渠道名","新增用户","单次使用时长","次日留存率"};
+//        for (int i = 0; i < title.length; i++) {
+//
+//            HSSFCell cellTitle = firstRow.createCell(rowNo++);
+//            cellTitle.setCellValue(title[i]);
+//        }
+//        rowNo = 0;
+//        String contentArr[][] = {
+//                {"1/1/18","30007","0"   ,"1:00:58","0%"},
+//                {"1/1/18","52025","1030","0:10:28","20.68%"},
+//                {"1/1/18","63324","433" ,"0:55:12","64.33%"},
+//                {"1/2/18","30007","0"   ,"1:00:58","0%"},
+//                {"1/2/18","52025","1030","0:10:28","20.68%"},
+//                {"1/2/18","63324","433" ,"0:55:12","64.33%"},
+//                {"1/3/18","30007","0"   ,"1:00:58","0%"},
+//                {"1/3/18","52025","1030","0:10:28","20.68%"},
+//                {"1/3/18","63324","433" ,"0:55:12","64.33%"},
+//                {"1/4/18","30007","0"   ,"1:00:58","0%"},
+//                {"1/4/18","52025","1030","0:10:28","20.68%"},
+//                {"1/4/18","63324","433" ,"0:55:12","64.33%"},
+//        };
+//        for (int i = 0; i < contentArr.length; i++) {
+//            String itemContentArray[] = contentArr[i];
+//            HSSFRow row = sheet.createRow(roleNo++);
+//            System.out.println("contentArr[" + i + "]");
+//            for (int j = 0; j < itemContentArray.length ; j++) {
+//                HSSFCell cellAncorId = row.createCell(rowNo++);
+//                if(j == 1)
+//                {
+//                    Date date = new Date(itemContentArray[j]);
+//
+//                    cellAncorId.setCellValue(date);
+//                }
+//                else
+//                {
+//                    cellAncorId.setCellValue(itemContentArray[j]);
+//                }
+//            }
+//            rowNo = 0;
+//        }
+//
+//        FileOutputStream output = new FileOutputStream("/Users/hanshihui/Documents/UYI_PROJECT/talentweb/SomeTest/src/execl/channelImport181137.xls");
+//        wb.write(output);
+//        wb.close();
+//        output.flush();
+//        output.close();
+//    }
 
-        int roleNo = 0;
-        int rowNo = 0;
-        HSSFRow firstRow = sheet.createRow(roleNo++);
-        String title[]= {"日期","渠道名","新增用户","单次使用时长","次日留存率"};
-        for (int i = 0; i < title.length; i++) {
-
-            HSSFCell cellTitle = firstRow.createCell(rowNo++);
-            cellTitle.setCellValue(title[i]);
-        }
-        rowNo = 0;
-        String contentArr[][] = {
-                {"1/1/18","30007","0"   ,"1:00:58","0%"},
-                {"1/1/18","52025","1030","0:10:28","20.68%"},
-                {"1/1/18","63324","433" ,"0:55:12","64.33%"},
-                {"1/2/18","30007","0"   ,"1:00:58","0%"},
-                {"1/2/18","52025","1030","0:10:28","20.68%"},
-                {"1/2/18","63324","433" ,"0:55:12","64.33%"},
-                {"1/3/18","30007","0"   ,"1:00:58","0%"},
-                {"1/3/18","52025","1030","0:10:28","20.68%"},
-                {"1/3/18","63324","433" ,"0:55:12","64.33%"},
-                {"1/4/18","30007","0"   ,"1:00:58","0%"},
-                {"1/4/18","52025","1030","0:10:28","20.68%"},
-                {"1/4/18","63324","433" ,"0:55:12","64.33%"},
-        };
-        for (int i = 0; i < contentArr.length; i++) {
-            String itemContentArray[] = contentArr[i];
-            HSSFRow row = sheet.createRow(roleNo++);
-            System.out.println("contentArr[" + i + "]");
-            for (int j = 0; j < itemContentArray.length ; j++) {
-                HSSFCell cellAncorId = row.createCell(rowNo++);
-                if(j == 1)
-                {
-                    Date date = new Date(itemContentArray[j]);
-
-                    cellAncorId.setCellValue(date);
-                }
-                else
-                {
-                    cellAncorId.setCellValue(itemContentArray[j]);
-                }
-            }
-            rowNo = 0;
-        }
-
-        FileOutputStream output = new FileOutputStream("/Users/hanshihui/Documents/UYI_PROJECT/talentweb/SomeTest/src/execl/channelImport181137.xls");
-        wb.write(output);
-        wb.close();
-        output.flush();
-        output.close();
-    }
-
-    private static void jsonToExcel() throws Exception {
+    @SuppressWarnings("unchecked")
+	private static void jsonToExcel() throws Exception {
 
         String jsonStr = getContentFromFile("/Users/hanshihui/Documents/UYI_PROJECT/talentweb/SomeTest/src/execl/newGenFinalJSON.txt");
         JSONObject jsonPreObject = JSONObject.fromObject(jsonStr);
@@ -188,7 +190,8 @@ public class DisposeData {
         getFinalJSON(finalJsonObj);
     }
 
-    private static void getFinalJSON(JSONObject jsonObject) throws IOException {
+    @SuppressWarnings("unchecked")
+	private static void getFinalJSON(JSONObject jsonObject) throws IOException {
         JSONObject startTempJson = new JSONObject();
         startTempJson.put("roomid", "");
         startTempJson.put("mictype", "1");
@@ -242,7 +245,8 @@ public class DisposeData {
         out.close();
     }
 
-    private static void getFinalJSON() throws IOException {
+    @SuppressWarnings("unchecked")
+	private static void getFinalJSON() throws IOException {
 
         String jsonStr = getContentFromFile("/Users/hanshihui/Documents/UYI_PROJECT/talentweb/SomeTest/src/execl/newGenJSON.txt");
         JSONObject jsonObject = JSONObject.fromObject(jsonStr);
@@ -263,7 +267,7 @@ public class DisposeData {
                 long currentMicroTime = currentMicroInfo.getLong("time");
 
                 int nextIndex = i++;
-                String nextMicType = arrayJson.getJSONObject(nextIndex).getString("mictype");
+//                String nextMicType = arrayJson.getJSONObject(nextIndex).getString("mictype");
                 while ("1".equals(arrayJson.getJSONObject(nextIndex).getString("mictype"))) {
 
                     nextIndex++;
@@ -343,19 +347,19 @@ public class DisposeData {
     }
 
     public static void main(String[] args) {
-//        try {
-//            fixMicroInfo();
-//            getFinalJSON();
-//            jsonToExcel();
-//        } catch (Exception e) {
-//            // TODO Auto-generated catch block
-//            e.printStackTrace();
-//        }
-
         try {
-            genExecel();
-        } catch (IOException e) {
+            fixMicroInfo();
+            getFinalJSON();
+            jsonToExcel();
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
         }
+
+//        try {
+//            genExecel();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 }
