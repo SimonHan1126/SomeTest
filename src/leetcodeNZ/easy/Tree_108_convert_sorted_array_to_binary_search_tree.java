@@ -61,7 +61,6 @@ public class Tree_108_convert_sorted_array_to_binary_search_tree {
 		if (right < left) return null;
 		int middlePoint = left + (right - left) / 2;
 		TreeNode middleTreeNode = new TreeNode(nums[middlePoint]);
-		System.out.println("this is constructBinaryTree middleTreeNode " + middlePoint + " left " + left + " right " + right);
 		middleTreeNode.left = constructBinaryTree(nums, left, middlePoint - 1);
 		middleTreeNode.right = constructBinaryTree(nums, middlePoint + 1, right);
 		return middleTreeNode;
