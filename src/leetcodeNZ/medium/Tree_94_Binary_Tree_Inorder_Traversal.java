@@ -54,7 +54,6 @@ public class Tree_94_Binary_Tree_Inorder_Traversal {
 				}
 			}
 		}
-		System.out.println(list);
 		return list;
 	}
 
