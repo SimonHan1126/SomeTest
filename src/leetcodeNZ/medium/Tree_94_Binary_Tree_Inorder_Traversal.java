@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import leetcodeNZ.model.TreeNode;
+
 /*
  * Given a binary tree, return the inorder traversal of its nodes' values.
 
@@ -69,6 +71,7 @@ public class Tree_94_Binary_Tree_Inorder_Traversal {
 			System.out.println("############################################################################################################ " + stackToString(s));
 			index++;
 		}
+		System.out.println(list);
 		return list;
 	}
 
@@ -100,25 +103,4 @@ public class Tree_94_Binary_Tree_Inorder_Traversal {
 		System.out.println(list);
 	}
 
-}
-
-//Definition for a binary tree node.
-class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
-
-	TreeNode() {
-
-	}
-
-	TreeNode(int val) {
-		this.val = val;
-	}
-
-	TreeNode(int val, TreeNode left, TreeNode right) {
-		this.val = val;
-		this.left = left;
-		this.right = right;
-	}
 }
