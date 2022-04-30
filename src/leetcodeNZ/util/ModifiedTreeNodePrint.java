@@ -1,0 +1,243 @@
+package leetcodeNZ.util;
+
+/**
+ * this class is modified from https://prismoskills.appspot.com/lessons/Binary_Trees/Tree_printing.jsp
+ */
+
+import java.util.LinkedList;
+
+/**
+ * @author Simon-the-coder
+ * @date 21/08/20 5:41 pm
+ */
+public class ModifiedTreeNodePrint {
+
+    public int idata;
+
+    public ModifiedTreeNodePrint left;
+    public ModifiedTreeNodePrint right;
+    public ModifiedTreeNodePrint parent;
+
+    // variables needed to print the tree like a tree
+    int depth=0;
+    int level=0;
+    int drawPos=0;
+
+
+    /******** Functions to create a random binary search tree *********/
+
+    public static int RANDOM_RANGE = 1000;
+
+    public static ModifiedTreeNodePrint createRandomIntegerTree (int numNodes)
+    {
+        RANDOM_RANGE = 10*numNodes;
+
+        ModifiedTreeNodePrint root = new ModifiedTreeNodePrint ();
+        root.idata = (int)(Math.random()*RANDOM_RANGE);
+
+        int treeSize = countNodes(root);
+        while (treeSize < numNodes)
+        {
+            int count = numNodes - treeSize;
+            while (count-- > 0)
+                root.insertInteger((int)(Math.random()*RANDOM_RANGE));
+            treeSize = countNodes (root);
+        }
+        return root;
+    }
+
+
+    // Inserts a given number into the BST
+    void insertInteger(int data)
+    {
+        if (this.idata == data)
+            return;
+        if (this.idata < data)
+        {
+            if (this.right == null)
+            {
+                this.right = new ModifiedTreeNodePrint();
+                this.right.idata = data;
+                this.right.parent = this;
+            }
+            else
+            {
+                this.right.insertInteger(data);
+            }
+        }
+        else
+        {
+            if (this.left == null)
+            {
+                this.left = new ModifiedTreeNodePrint();
+                this.left.idata = data;
+                this.left.parent = this;
+            }
+            else
+            {
+                this.left.insertInteger(data);
+            }
+        }
+    }
+
+
+
+    // Creates a random tree and prints it like a tree
+    public static void main(String[] args)
+    {
+        ModifiedTreeNodePrint root = createRandomIntegerTree(20);
+        root.inOrderInteger(", ");
+        drawTree (root);
+    }
+
+
+    /************ Actual functions that print the tree like a tree ********************/
+    static void drawTree(ModifiedTreeNodePrint root)
+    {
+
+        System.out.println("\n\nLevel order traversal of tree:");
+        int depth = depth(root);
+        setLevels (root, 0);
+
+        int depthChildCount[] = new int [depth+1];
+
+
+        LinkedList<ModifiedTreeNodePrint> q = new  LinkedList<ModifiedTreeNodePrint> ();
+        q.add(root.left);
+        q.add(root.right);
+
+        // draw root first
+        root.drawPos = (int)Math.pow(2, depth-1)*H_SPREAD;
+        currDrawLevel = root.level;
+        currSpaceCount = root.drawPos;
+        System.out.print(getSpace(root.drawPos) + root.idata);
+
+        while (!q.isEmpty())
+        {
+            ModifiedTreeNodePrint ele = q.pollFirst();
+            drawElement (ele, depthChildCount, depth, q);
+            if (ele == null)
+                continue;
+            q.add(ele.left);
+            q.add(ele.right);
+        }
+        System.out.println();
+    }
+
+    static int currDrawLevel  = -1;
+    static int currSpaceCount = -1;
+    static final int H_SPREAD = 3;
+    static void drawElement(ModifiedTreeNodePrint ele, int depthChildCount[], int depth, LinkedList<ModifiedTreeNodePrint> q)
+    {
+        if (ele == null)
+            return;
+
+        if (ele.level != currDrawLevel)
+        {
+            currDrawLevel = ele.level;
+            currSpaceCount = 0;
+            System.out.println();
+            for (int i=0; i<(depth-ele.level+1); i++)
+            {
+                int drawn = 0;
+                if (ele.parent.left != null)
+                {
+                    drawn = ele.parent.drawPos - 2*i - 2;
+                    System.out.print(getSpace(drawn) + "/");
+                }
+                if (ele.parent.right != null)
+                {
+                    int drawn2 = ele.parent.drawPos + 2*i + 2;
+                    System.out.print(getSpace(drawn2 - drawn) + "\\");
+                    drawn = drawn2;
+                }
+
+                ModifiedTreeNodePrint doneParent = ele.parent;
+                for (ModifiedTreeNodePrint sibling: q)
+                {
+                    if (sibling == null)
+                        continue;
+                    if (sibling.parent == doneParent)
+                        continue;
+                    doneParent = sibling.parent;
+                    if (sibling.parent.left != null)
+                    {
+                        int drawn2 = sibling.parent.drawPos - 2*i - 2;
+                        System.out.print(getSpace(drawn2-drawn-1) + "/");
+                        drawn = drawn2;
+                    }
+
+                    if (sibling.parent.right != null)
+                    {
+                        int drawn2 = sibling.parent.drawPos + 2*i + 2;
+                        System.out.print(getSpace(drawn2-drawn-1) + "\\");
+                        drawn = drawn2;
+                    }
+                }
+                System.out.println();
+            }
+        }
+        int offset=0;
+        int numDigits = (int)Math.ceil(Math.log10(ele.idata));
+        if (ele.parent.left == ele)
+        {
+            ele.drawPos = ele.parent.drawPos - H_SPREAD*(depth-currDrawLevel+1);
+            //offset = 2;
+            offset += numDigits/2;
+        }
+        else
+        {
+            ele.drawPos = ele.parent.drawPos + H_SPREAD*(depth-currDrawLevel+1);
+            //offset = -2;
+            offset -= numDigits;
+        }
+
+        System.out.print (getSpace(ele.drawPos - currSpaceCount + offset) + ele.idata);
+        currSpaceCount = ele.drawPos + numDigits/2;
+    }
+
+
+    // Utility functions
+    public void inOrderInteger (String sep)
+    {
+        if (left != null)
+            left.inOrderInteger(sep);
+        System.out.print(idata + sep);
+        if (right != null)
+            right.inOrderInteger(sep);
+    }
+
+    public static int depth (ModifiedTreeNodePrint n)
+    {
+        if (n == null)
+            return 0;
+        n.depth = 1 + Math.max(depth(n.left), depth(n.right));
+        return n.depth;
+    }
+
+
+    public static int countNodes (ModifiedTreeNodePrint n)
+    {
+        if (n == null)
+            return 0;
+        return 1 + countNodes(n.left) + countNodes(n.right);
+    }
+
+    static void setLevels (ModifiedTreeNodePrint r, int level)
+    {
+        if (r == null)
+            return;
+        r.level = level;
+        setLevels (r.left, level+1);
+        setLevels (r.right, level+1);
+    }
+
+    static String getSpace (int i)
+    {
+        String s = "";
+        while (i-- > 0)
+            s += " ";
+        return s;
+    }
+
+}

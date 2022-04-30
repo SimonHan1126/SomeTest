@@ -3,8 +3,82 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="" />
+    <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/itextpdf_5_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/Array/Hard_4_Median_of_Two_Sorted_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/model/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_108_convert_sorted_array_to_binary_search_tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_617_merge_two_binary_tress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_94_Binary_Tree_Inorder_Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/util/ModifiedTreeNodePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/util/PrintLevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/util/TreeNodePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/PackageCostV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/youTap/SecondHighestNumberInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/268b08ac-a860-48da-aa22-12d69675f3e0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SomeTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SomeTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/execl/CalCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/CalCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/execl/DisposeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/DisposeData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/execl/DisposeData2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/DisposeData2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/execl/DisposeDataRelease.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/DisposeDataRelease.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/execl/DisposeDataReleaseTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/DisposeDataReleaseTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/execl/ExeclParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/ExeclParse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/execl/TimeFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/TimeFormat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/itinterview/stackandqueue/StackGetMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/itinterview/stackandqueue/StackGetMin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/itinterview/stackandqueue/StackSortStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/itinterview/stackandqueue/StackSortStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/itinterview/stackandqueue/TwoStackQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/itinterview/stackandqueue/TwoStackQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/easy/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/easy/IntegerToRoman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/naive/DelLinkedListElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/naive/DelLinkedListElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/naive/IntegerSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/naive/IntegerSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/naive/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/naive/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/easy/EASY_7_Reverse_Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/easy/EASY_7_Reverse_Integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/hard/HARD_10_Regular_Expression_Matching.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/hard/HARD_10_Regular_Expression_Matching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/hard/HARD_140_Word_Break_II.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/hard/HARD_140_Word_Break_II.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_3_LONGEST_NO_REPEAT_C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_6_ZIGZAG_CONVERSION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/test/jj.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/GsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/GsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/NBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/NBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Reactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Reactor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/SocketReadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/SocketReadHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test180105/ThreadPoolTestOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test180105/ThreadPoolTestOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/word/ReadWordDoc$NewRequirementInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/word/ReadWordDoc$NewRequirementInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/word/ReadWordDoc$RequirementInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/word/ReadWordDoc$RequirementInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/word/ReadWordDoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/word/ReadWordDoc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/word/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/word/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/youtubeSrtToTxt/SrtToTxtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/youtubeSrtToTxt/SrtToTxtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/medium/Tree_94_Binary_Tree_Inorder_Traversal.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +99,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="SomeTest" />
-    <favorites_list name="CodeIris Favorites" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -40,10 +110,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="082cfb20-d73e-4bcc-962e-10a573aa82bb" />
   <component name="ProjectId" id="1ZY6bbiYarojE7N1PzDg3J4NOdH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -51,16 +124,21 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,7 +156,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadWordDoc">
+  <component name="RunManager" selected="Application.PrintLevelOrder">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -134,6 +212,34 @@
       <module />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -183,13 +289,13 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="EASY_7_Reverse_Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.easy.EASY_7_Reverse_Integer" />
+    <configuration name="JpgToPdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imagesToPDF.JpgToPdf" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.easy.*" />
+          <option name="PATTERN" value="imagesToPDF.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,13 +303,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HARD_140_Word_Break_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.hard.HARD_140_Word_Break_II" />
+    <configuration name="PackageCostV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.PackageCostV4" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.hard.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,13 +317,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephusKill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="itinterview.link.JosephusKill" />
+    <configuration name="PrintLevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.util.PrintLevelOrder" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="itinterview.link.*" />
+          <option name="PATTERN" value="leetcodeNZ.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,13 +331,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWordDoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="word.ReadWordDoc" />
+    <configuration name="SecondHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youTap.SecondHighestNumberInArray" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="word.*" />
+          <option name="PATTERN" value="youTap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,13 +345,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="word.Sort" />
+    <configuration name="Tree_94_Binary_Tree_Inorder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_94_Binary_Tree_Inorder_Traversal" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="word.*" />
+          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,34 +361,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -305,36 +383,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -367,22 +417,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.EASY_7_Reverse_Integer" />
-      <item itemvalue="Application.JosephusKill" />
-      <item itemvalue="Application.HARD_140_Word_Break_II" />
-      <item itemvalue="Application.ReadWordDoc" />
-      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.PackageCostV4" />
+      <item itemvalue="Application.SecondHighestNumberInArray" />
+      <item itemvalue="Application.JpgToPdf" />
+      <item itemvalue="Application.Tree_94_Binary_Tree_Inorder_Traversal" />
+      <item itemvalue="Application.PrintLevelOrder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadWordDoc" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.HARD_140_Word_Break_II" />
-        <item itemvalue="Application.JosephusKill" />
-        <item itemvalue="Application.EASY_7_Reverse_Integer" />
+        <item itemvalue="Application.PrintLevelOrder" />
+        <item itemvalue="Application.Tree_94_Binary_Tree_Inorder_Traversal" />
+        <item itemvalue="Application.SecondHighestNumberInArray" />
+        <item itemvalue="Application.JpgToPdf" />
+        <item itemvalue="Application.PackageCostV4" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -475,6 +526,16 @@
       <workItem from="1588990985874" duration="5705000" />
       <workItem from="1589074396212" duration="391000" />
       <workItem from="1597465705923" duration="245000" />
+      <workItem from="1597560722568" duration="7012000" />
+      <workItem from="1597988313289" duration="2351000" />
+      <workItem from="1601713097338" duration="3692000" />
+      <workItem from="1604914332700" duration="15588000" />
+      <workItem from="1605116543376" duration="763000" />
+      <workItem from="1609186935105" duration="334000" />
+      <workItem from="1610096725959" duration="13000" />
+      <workItem from="1638045498346" duration="7902000" />
+      <workItem from="1639285347210" duration="7009000" />
+      <workItem from="1651292412462" duration="3423000" />
     </task>
     <servers />
   </component>
@@ -488,7 +549,19 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -497,85 +570,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="241" y="-863" key="#Inspections" timestamp="1585006239657">
-      <screen x="-319" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="241" y="-863" key="#Inspections/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585006239657" />
-    <state x="-1147" y="-38" key="#com.intellij.ide.util.MemberChooser" timestamp="1588993231008">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state x="-1147" y="-38" key="#com.intellij.ide.util.MemberChooser/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1588993231008" />
-    <state x="436" y="-838" key="#com.intellij.ide.util.MemberChooser/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585018399019" />
-    <state width="1876" height="482" key="GridCell.Tab.0.bottom" timestamp="1589057501035">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state width="1876" height="482" key="GridCell.Tab.0.bottom/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501035" />
-    <state width="1236" height="223" key="GridCell.Tab.0.bottom/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588801692195" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585351651878" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585019234048" />
-    <state width="1876" height="464" key="GridCell.Tab.0.bottom/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620235" />
-    <state width="1876" height="482" key="GridCell.Tab.0.center" timestamp="1589057501034">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state width="1876" height="482" key="GridCell.Tab.0.center/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501034" />
-    <state width="1236" height="223" key="GridCell.Tab.0.center/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588801692192" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585351651875" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585019234046" />
-    <state width="1876" height="464" key="GridCell.Tab.0.center/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620228" />
-    <state width="1876" height="482" key="GridCell.Tab.0.left" timestamp="1589057501032">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state width="1876" height="482" key="GridCell.Tab.0.left/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501032" />
-    <state width="1236" height="223" key="GridCell.Tab.0.left/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588801692191" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585351651874" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585019234045" />
-    <state width="1876" height="464" key="GridCell.Tab.0.left/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620207" />
-    <state width="1876" height="482" key="GridCell.Tab.0.right" timestamp="1589057501035">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state width="1876" height="482" key="GridCell.Tab.0.right/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501035" />
-    <state width="1236" height="223" key="GridCell.Tab.0.right/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588801692192" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585351651876" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585019234047" />
-    <state width="1876" height="464" key="GridCell.Tab.0.right/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620234" />
-    <state width="1876" height="482" key="GridCell.Tab.1.bottom" timestamp="1589057501037">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state width="1876" height="482" key="GridCell.Tab.1.bottom/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501037" />
-    <state width="1876" height="464" key="GridCell.Tab.1.bottom/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585348924453" />
-    <state width="1876" height="464" key="GridCell.Tab.1.bottom/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620242" />
-    <state width="1876" height="482" key="GridCell.Tab.1.center" timestamp="1589057501036">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state width="1876" height="482" key="GridCell.Tab.1.center/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501036" />
-    <state width="1876" height="464" key="GridCell.Tab.1.center/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585348924452" />
-    <state width="1876" height="464" key="GridCell.Tab.1.center/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620240" />
-    <state width="1876" height="482" key="GridCell.Tab.1.left" timestamp="1589057501036">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state width="1876" height="482" key="GridCell.Tab.1.left/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501036" />
-    <state width="1876" height="464" key="GridCell.Tab.1.left/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585348924451" />
-    <state width="1876" height="464" key="GridCell.Tab.1.left/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620239" />
-    <state width="1876" height="482" key="GridCell.Tab.1.right" timestamp="1589057501036">
-      <screen x="-1920" y="-257" width="1920" height="1057" />
-    </state>
-    <state width="1876" height="482" key="GridCell.Tab.1.right/0.23.1280.737/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1589057501036" />
-    <state width="1876" height="464" key="GridCell.Tab.1.right/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585348924452" />
-    <state width="1876" height="464" key="GridCell.Tab.1.right/0.23.1280.742/-337.-1057.1920.1057@0.23.1280.742" timestamp="1585396620241" />
-    <state x="367" y="-645" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585345396333">
-      <screen x="-319" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="367" y="-645" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1280.742/-319.-1057.1920.1057@-319.-1057.1920.1057" timestamp="1585345396333" />
-    <state x="309" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588625144572">
-      <screen x="0" y="23" width="1280" height="737" />
-    </state>
-    <state x="309" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1280.737/-1920.-257.1920.1057@0.23.1280.737" timestamp="1588625144572" />
-    <state x="288" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1585018223060">
-      <screen x="-337" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="288" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1280.742/-337.-1057.1920.1057@-337.-1057.1920.1057" timestamp="1585018223060" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,6 +613,11 @@
           <url>file://$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_6_ZIGZAG_CONVERSION.java</url>
           <line>22</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/util/ModifiedTreeNodePrint.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
