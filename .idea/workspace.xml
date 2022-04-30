@@ -23,61 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/itextpdf_5_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/Array/Hard_4_Median_of_Two_Sorted_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/model/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_108_convert_sorted_array_to_binary_search_tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_617_merge_two_binary_tress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_94_Binary_Tree_Inorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/util/ModifiedTreeNodePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/util/PrintLevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/util/TreeNodePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/PackageCostV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/youTap/SecondHighestNumberInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/268b08ac-a860-48da-aa22-12d69675f3e0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SomeTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SomeTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/execl/CalCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/CalCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/execl/DisposeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/DisposeData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/execl/DisposeData2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/DisposeData2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/execl/DisposeDataRelease.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/DisposeDataRelease.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/execl/DisposeDataReleaseTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/DisposeDataReleaseTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/execl/ExeclParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/ExeclParse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/execl/TimeFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/execl/TimeFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/itinterview/stackandqueue/StackGetMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/itinterview/stackandqueue/StackGetMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/itinterview/stackandqueue/StackSortStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/itinterview/stackandqueue/StackSortStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/itinterview/stackandqueue/TwoStackQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/itinterview/stackandqueue/TwoStackQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/easy/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/easy/IntegerToRoman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/naive/DelLinkedListElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/naive/DelLinkedListElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/naive/IntegerSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/naive/IntegerSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/naive/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/naive/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/easy/EASY_7_Reverse_Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/easy/EASY_7_Reverse_Integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/hard/HARD_10_Regular_Expression_Matching.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/hard/HARD_10_Regular_Expression_Matching.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/hard/HARD_140_Word_Break_II.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/hard/HARD_140_Word_Break_II.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_3_LONGEST_NO_REPEAT_C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_6_ZIGZAG_CONVERSION.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/test/jj.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/GsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/GsonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/NBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/NBTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Reactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Reactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/SocketReadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/SocketReadHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test180105/ThreadPoolTestOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test180105/ThreadPoolTestOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/word/ReadWordDoc$NewRequirementInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/word/ReadWordDoc$NewRequirementInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/word/ReadWordDoc$RequirementInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/word/ReadWordDoc$RequirementInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/word/ReadWordDoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/word/ReadWordDoc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/word/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/word/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/youtubeSrtToTxt/SrtToTxtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/youtubeSrtToTxt/SrtToTxtUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/medium/Tree_94_Binary_Tree_Inorder_Traversal.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -535,7 +481,7 @@
       <workItem from="1610096725959" duration="13000" />
       <workItem from="1638045498346" duration="7902000" />
       <workItem from="1639285347210" duration="7009000" />
-      <workItem from="1651292412462" duration="3423000" />
+      <workItem from="1651292412462" duration="4476000" />
     </task>
     <servers />
   </component>
