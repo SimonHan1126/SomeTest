@@ -23,6 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/example/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_2236_Root_Equals_Sum_Of_Children.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_938_Range_Sum_of_BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +106,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintLevelOrder">
+  <component name="RunManager" selected="Application.Tree_938_Range_Sum_of_BST">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -235,34 +239,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration name="JpgToPdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imagesToPDF.JpgToPdf" />
-      <module name="SomeTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="imagesToPDF.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PackageCostV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.PackageCostV4" />
-      <module name="SomeTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrintLevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeNZ.util.PrintLevelOrder" />
       <module name="SomeTest" />
@@ -284,6 +260,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="youTap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.example.Tree" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeNZ.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree_938_Range_Sum_of_BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_938_Range_Sum_of_BST" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,19 +367,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PackageCostV4" />
       <item itemvalue="Application.SecondHighestNumberInArray" />
-      <item itemvalue="Application.JpgToPdf" />
       <item itemvalue="Application.Tree_94_Binary_Tree_Inorder_Traversal" />
       <item itemvalue="Application.PrintLevelOrder" />
+      <item itemvalue="Application.Tree" />
+      <item itemvalue="Application.Tree_938_Range_Sum_of_BST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tree_938_Range_Sum_of_BST" />
+        <item itemvalue="Application.Tree" />
         <item itemvalue="Application.PrintLevelOrder" />
         <item itemvalue="Application.Tree_94_Binary_Tree_Inorder_Traversal" />
         <item itemvalue="Application.SecondHighestNumberInArray" />
-        <item itemvalue="Application.JpgToPdf" />
-        <item itemvalue="Application.PackageCostV4" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +485,7 @@
       <workItem from="1610096725959" duration="13000" />
       <workItem from="1638045498346" duration="7902000" />
       <workItem from="1639285347210" duration="7009000" />
-      <workItem from="1651292412462" duration="4476000" />
+      <workItem from="1651292412462" duration="18218000" />
     </task>
     <servers />
   </component>
