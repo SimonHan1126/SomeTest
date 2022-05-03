@@ -1,24 +1,34 @@
 package leetcodeNZ.tree.easy;
 
+import org.apache.poi.ss.formula.functions.T;
+
 import leetcodeNZ.model.TreeNode;
+import leetcodeNZ.util.TreeNodePrintUtil;
 
 /**
  * @author Simon-the-coder
  * @date 2/05/22 7:06 PM
  */
 public class Tree_897_Increasing_Order_Search_Tree {
+    public TreeNode preNode;
+    public TreeNode tempNode;
+
     public TreeNode increasingBST(TreeNode root) {
         if (root != null) {
-//            if (root.left != null) {
-//
-//            } else if (root.right != null) {
-//
-//            }
             increasingBST(root.left);
+            if (tempNode != null) {
+                tempNode.right = root;
+            }
+            tempNode = root;
+            root.left = null;
+            if (preNode == null) {
+                preNode = tempNode;
+            }
+            TreeNodePrintUtil.displayTree(preNode);
             increasingBST(root.right);
         }
-        return root;
-     }
+        return preNode;
+    }
 
     public static void main(String[] args) {
 
@@ -32,7 +42,10 @@ public class Tree_897_Increasing_Order_Search_Tree {
         TreeNode n6 = new TreeNode(6, null, n8);
         TreeNode n5 = new TreeNode(5, n3, n6);
 
+        TreeNodePrintUtil.displayTree(n5);
+
         Tree_897_Increasing_Order_Search_Tree obj = new Tree_897_Increasing_Order_Search_Tree();
         obj.increasingBST(n5);
+        TreeNodePrintUtil.displayTree(obj.preNode);
     }
 }

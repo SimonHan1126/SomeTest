@@ -22,7 +22,7 @@ class ListNode {
       ListNode(int x) { val = x; }
 }
 
-public class Medium_2_Add_Two_Numbers {
+class Medium_2_Add_Two_Numbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         String str1 = "";

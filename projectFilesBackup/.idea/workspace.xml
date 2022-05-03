@@ -3,9 +3,6 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,15 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/util/TreeNodePrintUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/example/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_2236_Root_Equals_Sum_Of_Children.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_938_Range_Sum_of_BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/imagesToPDF/JpgToPdf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_938_Range_Sum_of_BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_938_Range_Sum_of_BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +49,6 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/simon-youtap/.android/avd/Pixel_C_API_30.avd]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -114,7 +106,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tree_897_Increasing_Order_Search_Tree">
+  <component name="RunManager" selected="Application.Tree_938_Range_Sum_of_BST">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -198,17 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="grailsApplicationRoot" value="" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -258,24 +239,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="PrintLevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeNZ.util.PrintLevelOrder" />
       <module name="SomeTest" />
@@ -290,13 +253,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.example.Tree" />
+    <configuration name="SecondHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youTap.SecondHighestNumberInArray" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.example.*" />
+          <option name="PATTERN" value="youTap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,13 +267,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree_897_Increasing_Order_Search_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_897_Increasing_Order_Search_Tree" />
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.example.Tree" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
+          <option name="PATTERN" value="leetcodeNZ.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,6 +315,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -361,34 +335,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -402,20 +348,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.SecondHighestNumberInArray" />
       <item itemvalue="Application.Tree_94_Binary_Tree_Inorder_Traversal" />
       <item itemvalue="Application.PrintLevelOrder" />
       <item itemvalue="Application.Tree" />
       <item itemvalue="Application.Tree_938_Range_Sum_of_BST" />
-      <item itemvalue="Application.Tree_897_Increasing_Order_Search_Tree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tree_897_Increasing_Order_Search_Tree" />
         <item itemvalue="Application.Tree_938_Range_Sum_of_BST" />
         <item itemvalue="Application.Tree" />
         <item itemvalue="Application.PrintLevelOrder" />
         <item itemvalue="Application.Tree_94_Binary_Tree_Inorder_Traversal" />
+        <item itemvalue="Application.SecondHighestNumberInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -584,6 +548,11 @@
           <url>file://$PROJECT_DIR$/src/leetcodeNZ/easy/EASY_1_Two_Sum.java</url>
           <line>107</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_3_LONGEST_NO_REPEAT_C.java</url>
