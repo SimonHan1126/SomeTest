@@ -26,15 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/util/TreeNodePrintUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/imagesToPDF/JpgToPdf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_938_Range_Sum_of_BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_938_Range_Sum_of_BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_617_merge_two_binary_tress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_617_merge_two_binary_tress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/util/ModifiedTreeNodePrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/example/ModifiedTreeNodePrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/util/PrintLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/example/PrintLevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/util/TreeNodePrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/example/TreeNodePrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tree_897_Increasing_Order_Search_Tree">
+  <component name="RunManager" selected="Application.Tree_617_merge_two_binary_tress">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -277,12 +274,12 @@
       <method v="2" />
     </configuration>
     <configuration name="PrintLevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.util.PrintLevelOrder" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.example.PrintLevelOrder" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.util.*" />
+          <option name="PATTERN" value="leetcodeNZ.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,6 +294,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcodeNZ.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree_617_merge_two_binary_tress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_617_merge_two_binary_tress" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,20 +331,6 @@
     </configuration>
     <configuration name="Tree_938_Range_Sum_of_BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_938_Range_Sum_of_BST" />
-      <module name="SomeTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tree_94_Binary_Tree_Inorder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_94_Binary_Tree_Inorder_Traversal" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -403,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tree_94_Binary_Tree_Inorder_Traversal" />
       <item itemvalue="Application.PrintLevelOrder" />
       <item itemvalue="Application.Tree" />
       <item itemvalue="Application.Tree_938_Range_Sum_of_BST" />
       <item itemvalue="Application.Tree_897_Increasing_Order_Search_Tree" />
+      <item itemvalue="Application.Tree_617_merge_two_binary_tress" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tree_617_merge_two_binary_tress" />
         <item itemvalue="Application.Tree_897_Increasing_Order_Search_Tree" />
         <item itemvalue="Application.Tree_938_Range_Sum_of_BST" />
         <item itemvalue="Application.Tree" />
         <item itemvalue="Application.PrintLevelOrder" />
-        <item itemvalue="Application.Tree_94_Binary_Tree_Inorder_Traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -596,7 +593,7 @@
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcodeNZ/util/ModifiedTreeNodePrint.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/example/ModifiedTreeNodePrint.java</url>
           <line>87</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>

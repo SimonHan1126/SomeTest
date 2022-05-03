@@ -1,22 +1,22 @@
-package leetcodeNZ.util;
+package leetcodeNZ.example;
+
+/**
+ * this class is modified from https://prismoskills.appspot.com/lessons/Binary_Trees/Tree_printing.jsp
+ */
 
 import java.util.LinkedList;
 
 /**
- * this class is copied from https://prismoskills.appspot.com/lessons/Binary_Trees/Tree_printing.jsp
- */
-
-/**
  * @author Simon-the-coder
- * @date 17/08/20 10:59 am
+ * @date 21/08/20 5:41 pm
  */
-public class TreeNodePrint {
+public class ModifiedTreeNodePrint {
 
     public int idata;
 
-    public TreeNodePrint left;
-    public TreeNodePrint right;
-    public TreeNodePrint parent;
+    public ModifiedTreeNodePrint left;
+    public ModifiedTreeNodePrint right;
+    public ModifiedTreeNodePrint parent;
 
     // variables needed to print the tree like a tree
     int depth=0;
@@ -28,11 +28,11 @@ public class TreeNodePrint {
 
     public static int RANDOM_RANGE = 1000;
 
-    public static TreeNodePrint createRandomIntegerTree (int numNodes)
+    public static ModifiedTreeNodePrint createRandomIntegerTree (int numNodes)
     {
         RANDOM_RANGE = 10*numNodes;
 
-        TreeNodePrint root = new TreeNodePrint ();
+        ModifiedTreeNodePrint root = new ModifiedTreeNodePrint ();
         root.idata = (int)(Math.random()*RANDOM_RANGE);
 
         int treeSize = countNodes(root);
@@ -56,7 +56,7 @@ public class TreeNodePrint {
         {
             if (this.right == null)
             {
-                this.right = new TreeNodePrint();
+                this.right = new ModifiedTreeNodePrint();
                 this.right.idata = data;
                 this.right.parent = this;
             }
@@ -69,7 +69,7 @@ public class TreeNodePrint {
         {
             if (this.left == null)
             {
-                this.left = new TreeNodePrint();
+                this.left = new ModifiedTreeNodePrint();
                 this.left.idata = data;
                 this.left.parent = this;
             }
@@ -85,14 +85,14 @@ public class TreeNodePrint {
     // Creates a random tree and prints it like a tree
     public static void main(String[] args)
     {
-        TreeNodePrint root = createRandomIntegerTree(20);
+        ModifiedTreeNodePrint root = createRandomIntegerTree(20);
         root.inOrderInteger(", ");
         drawTree (root);
     }
 
 
     /************ Actual functions that print the tree like a tree ********************/
-    static void drawTree(TreeNodePrint root)
+    static void drawTree(ModifiedTreeNodePrint root)
     {
 
         System.out.println("\n\nLevel order traversal of tree:");
@@ -102,7 +102,7 @@ public class TreeNodePrint {
         int depthChildCount[] = new int [depth+1];
 
 
-        LinkedList<TreeNodePrint> q = new  LinkedList<TreeNodePrint> ();
+        LinkedList<ModifiedTreeNodePrint> q = new  LinkedList<ModifiedTreeNodePrint> ();
         q.add(root.left);
         q.add(root.right);
 
@@ -114,7 +114,7 @@ public class TreeNodePrint {
 
         while (!q.isEmpty())
         {
-            TreeNodePrint ele = q.pollFirst();
+            ModifiedTreeNodePrint ele = q.pollFirst();
             drawElement (ele, depthChildCount, depth, q);
             if (ele == null)
                 continue;
@@ -127,7 +127,7 @@ public class TreeNodePrint {
     static int currDrawLevel  = -1;
     static int currSpaceCount = -1;
     static final int H_SPREAD = 3;
-    static void drawElement(TreeNodePrint ele, int depthChildCount[], int depth, LinkedList<TreeNodePrint> q)
+    static void drawElement(ModifiedTreeNodePrint ele, int depthChildCount[], int depth, LinkedList<ModifiedTreeNodePrint> q)
     {
         if (ele == null)
             return;
@@ -152,8 +152,8 @@ public class TreeNodePrint {
                     drawn = drawn2;
                 }
 
-                TreeNodePrint doneParent = ele.parent;
-                for (TreeNodePrint sibling: q)
+                ModifiedTreeNodePrint doneParent = ele.parent;
+                for (ModifiedTreeNodePrint sibling: q)
                 {
                     if (sibling == null)
                         continue;
@@ -207,7 +207,7 @@ public class TreeNodePrint {
             right.inOrderInteger(sep);
     }
 
-    public static int depth (TreeNodePrint n)
+    public static int depth (ModifiedTreeNodePrint n)
     {
         if (n == null)
             return 0;
@@ -216,14 +216,14 @@ public class TreeNodePrint {
     }
 
 
-    public static int countNodes (TreeNodePrint n)
+    public static int countNodes (ModifiedTreeNodePrint n)
     {
         if (n == null)
             return 0;
         return 1 + countNodes(n.left) + countNodes(n.right);
     }
 
-    static void setLevels (TreeNodePrint r, int level)
+    static void setLevels (ModifiedTreeNodePrint r, int level)
     {
         if (r == null)
             return;
