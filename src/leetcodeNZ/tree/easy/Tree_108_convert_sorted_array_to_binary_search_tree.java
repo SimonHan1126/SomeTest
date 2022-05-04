@@ -4,6 +4,7 @@
 package leetcodeNZ.tree.easy;
 
 import leetcodeNZ.model.TreeNode;
+import leetcodeNZ.util.TreeNodePrintUtil;
 
 /*
  * 	Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
@@ -62,15 +63,14 @@ public class Tree_108_convert_sorted_array_to_binary_search_tree {
 		TreeNode middleTreeNode = new TreeNode(nums[middlePoint]);
 		middleTreeNode.left = constructBinaryTree(nums, left, middlePoint - 1);
 		middleTreeNode.right = constructBinaryTree(nums, middlePoint + 1, right);
+		TreeNodePrintUtil.displayTree(middleTreeNode);
 		return middleTreeNode;
 	}
 	
 	public static void main(String[] args) {
 		int[] nums = {-10,-3,0,5,9};
-//		int[] nums = {-3,0,9,5,-10,-1,20};
 		Tree_108_convert_sorted_array_to_binary_search_tree obj = new Tree_108_convert_sorted_array_to_binary_search_tree();
-		Tree_94_Binary_Tree_Inorder_Traversal instance = new Tree_94_Binary_Tree_Inorder_Traversal();
 		TreeNode node = obj.arrayToBinaryTree(nums);
-//		instance.inorderTraversal(node);
+		TreeNodePrintUtil.displayTree(node);
 	}
 }
