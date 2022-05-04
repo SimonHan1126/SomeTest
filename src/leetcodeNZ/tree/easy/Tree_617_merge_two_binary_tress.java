@@ -1,8 +1,5 @@
 package leetcodeNZ.tree.easy;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import leetcodeNZ.model.TreeNode;
 import leetcodeNZ.util.TreeNodePrintUtil;
 
