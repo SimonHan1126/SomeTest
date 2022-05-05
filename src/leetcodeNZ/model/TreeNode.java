@@ -35,8 +35,8 @@ public class TreeNode {
 		while (i < tree.length) {
 			TreeNode node = q.peek();
 			if (node != null) {
-				node.left = tree[i] == null ? null : new TreeNode(tree[i]); i++;
-				node.right = tree[i] == null ? null : new TreeNode(tree[i]); i++;
+				node.left = tree[i] == null ? null : new TreeNode(tree[i]); i++; if (i > (tree.length - 1)) break;
+				node.right = tree[i] == null ? null : new TreeNode(tree[i]); i++; if (i > (tree.length - 1)) break;
 				if (node.left != null) q.add(node.left);
 				if (node.right != null) q.add(node.right);
 			}
