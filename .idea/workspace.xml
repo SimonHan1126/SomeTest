@@ -26,7 +26,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/dynamicProgramming/DP_1137_N_th_Tribonacci_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/dynamicProgramming/DP_509_Fibonacci_Number.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_104_Maximum_Depth_of_Binary_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_108_convert_sorted_array_to_binary_search_tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_144_Binary_Tree_Preorder_Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_145_Binary_Tree_Postorder_Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_2236_Root_Equals_Sum_Of_Children.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_226_Invert_Binary_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_257_Binary_Tree_Paths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_559_Maximum_Depth_of_N_ary_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_563_Binary_Tree_Tilt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_589_N_ary_Tree_Preorder_Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_590_N_ary_Tree_Postorder_Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_606_Construct_String_from_Binary_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_617_merge_two_binary_tress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_637_Average_of_Levels_in_Binary_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_653_Two_Sum_IV_Input_is_a_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_700_Search_in_a_Binary_Search_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_872_Leaf_Similar_Trees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_897_Increasing_Order_Search_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_938_Range_Sum_of_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_94_Binary_Tree_Inorder_Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_965_Univalued_Binary_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/hard/Tree_1028_Recover_a_Tree_From_Preorder_Traversal.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +134,7 @@
       <recent name="test180105" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree">
+  <component name="RunManager" selected="Application.DP_1137_N_th_Tribonacci_Number">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -270,6 +296,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="DP_1137_N_th_Tribonacci_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.dynamicProgramming.DP_1137_N_th_Tribonacci_Number" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeNZ.tags.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" />
       <module name="SomeTest" />
@@ -314,20 +354,6 @@
     </configuration>
     <configuration name="Tree_637_Average_of_Levels_in_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_637_Average_of_Levels_in_Binary_Tree" />
-      <module name="SomeTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tags.tree.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tree_653_Two_Sum_IV_Input_is_a_BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_653_Two_Sum_IV_Input_is_a_BST" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -398,18 +424,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Tree_637_Average_of_Levels_in_Binary_Tree" />
-      <item itemvalue="Application.Tree_653_Two_Sum_IV_Input_is_a_BST" />
       <item itemvalue="Application.Tree_257_Binary_Tree_Paths" />
       <item itemvalue="Application.Tree_606_Construct_String_from_Binary_Tree" />
       <item itemvalue="Application.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" />
+      <item itemvalue="Application.DP_1137_N_th_Tribonacci_Number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DP_1137_N_th_Tribonacci_Number" />
         <item itemvalue="Application.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" />
         <item itemvalue="Application.Tree_606_Construct_String_from_Binary_Tree" />
         <item itemvalue="Application.Tree_257_Binary_Tree_Paths" />
         <item itemvalue="Application.Tree_637_Average_of_Levels_in_Binary_Tree" />
-        <item itemvalue="Application.Tree_653_Two_Sum_IV_Input_is_a_BST" />
       </list>
     </recent_temporary>
   </component>
@@ -595,7 +621,7 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_590_N_ary_Tree_Postorder_Traversal.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcodeNZ/tags/tree/easy/Tree_590_N_ary_Tree_Postorder_Traversal.java</url>
           <line>78</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
