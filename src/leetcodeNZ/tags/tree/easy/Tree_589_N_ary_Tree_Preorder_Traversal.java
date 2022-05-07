@@ -1,18 +1,25 @@
-package leetcodeNZ.tree.easy;
+package leetcodeNZ.tags.tree.easy;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tree_559_Maximum_Depth_of_N_ary_Tree {
+public class Tree_589_N_ary_Tree_Preorder_Traversal {
 
-    public int maxDepth(Node root) {
-        if (root == null) return 0;
-        int maxDepth = 0;
+    private List<Integer> list = new ArrayList<>();
+
+    private void treePreOrder(Node root) {
+        if (root == null) return;
+        if (root.children == null) return;
         for (Node node : root.children) {
-            int depth = maxDepth(node);
-            if (depth > maxDepth) maxDepth = depth;
+            list.add(node.val);
+            treePreOrder(node);
         }
-        return maxDepth + 1;
+    }
+
+    public List<Integer> preorder(Node root) {
+        if (root != null) list.add(root.val);
+        treePreOrder(root);
+        return list;
     }
 
     public static void main(String[] args) {
@@ -52,7 +59,8 @@ public class Tree_559_Maximum_Depth_of_N_ary_Tree {
         treeChildren1.add(treeNode4);
         treeChildren1.add(treeNode5);
         Node treeNode1 = new Node(1, treeChildren1);
-        Tree_559_Maximum_Depth_of_N_ary_Tree object = new Tree_559_Maximum_Depth_of_N_ary_Tree();
-        System.out.println(object.maxDepth(treeNode1));
+
+        Tree_589_N_ary_Tree_Preorder_Traversal object = new Tree_589_N_ary_Tree_Preorder_Traversal();
+        System.out.println(object.preorder(treeNode1));
     }
 }

@@ -1,4 +1,4 @@
-package leetcodeNZ.tree.easy;
+package leetcodeNZ.tags.tree.easy;
 
 import leetcodeNZ.model.TreeNode;
 

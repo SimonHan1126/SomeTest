@@ -26,12 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_257_Binary_Tree_Paths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_563_Binary_Tree_Tilt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_606_Construct_String_from_Binary_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_653_Two_Sum_IV_Input_is_a_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_653_Two_Sum_IV_Input_is_a_BST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,12 +271,12 @@
       <method v="2" />
     </configuration>
     <configuration name="Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
+          <option name="PATTERN" value="leetcodeNZ.tags.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,12 +285,12 @@
       </method>
     </configuration>
     <configuration name="Tree_257_Binary_Tree_Paths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_257_Binary_Tree_Paths" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_257_Binary_Tree_Paths" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
+          <option name="PATTERN" value="leetcodeNZ.tags.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,12 +299,12 @@
       </method>
     </configuration>
     <configuration name="Tree_606_Construct_String_from_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_606_Construct_String_from_Binary_Tree" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_606_Construct_String_from_Binary_Tree" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
+          <option name="PATTERN" value="leetcodeNZ.tags.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +313,12 @@
       </method>
     </configuration>
     <configuration name="Tree_637_Average_of_Levels_in_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_637_Average_of_Levels_in_Binary_Tree" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_637_Average_of_Levels_in_Binary_Tree" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
+          <option name="PATTERN" value="leetcodeNZ.tags.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,12 +327,12 @@
       </method>
     </configuration>
     <configuration name="Tree_653_Two_Sum_IV_Input_is_a_BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_653_Two_Sum_IV_Input_is_a_BST" />
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_653_Two_Sum_IV_Input_is_a_BST" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tree.easy.*" />
+          <option name="PATTERN" value="leetcodeNZ.tags.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

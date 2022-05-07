@@ -1,6 +1,5 @@
-package leetcodeNZ.tree.easy;
+package leetcodeNZ.tags.tree.easy;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import leetcodeNZ.model.TreeNode;
