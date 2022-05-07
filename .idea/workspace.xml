@@ -26,14 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_144_Binary_Tree_Preorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_145_Binary_Tree_Postorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_653_Two_Sum_IV_Input_is_a_BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_257_Binary_Tree_Paths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_563_Binary_Tree_Tilt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_606_Construct_String_from_Binary_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/model/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/model/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_637_Average_of_Levels_in_Binary_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/tree/easy/Tree_637_Average_of_Levels_in_Binary_Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/util/TreeNodePrintUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/util/TreeNodePrintUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/model/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/model/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_653_Two_Sum_IV_Input_is_a_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/tree/easy/Tree_653_Two_Sum_IV_Input_is_a_BST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,7 @@
       <recent name="test180105" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tree_144_Binary_Tree_Preorder_Traversal">
+  <component name="RunManager" selected="Application.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -277,8 +275,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Tree_108_convert_sorted_array_to_binary_search_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_108_convert_sorted_array_to_binary_search_tree" />
+    <configuration name="Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -291,8 +289,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree_144_Binary_Tree_Preorder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_144_Binary_Tree_Preorder_Traversal" />
+    <configuration name="Tree_257_Binary_Tree_Paths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_257_Binary_Tree_Paths" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -305,8 +303,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree_145_Binary_Tree_Postorder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_145_Binary_Tree_Postorder_Traversal" />
+    <configuration name="Tree_606_Construct_String_from_Binary_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_606_Construct_String_from_Binary_Tree" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -333,8 +331,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree_872_Leaf_Similar_Trees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_872_Leaf_Similar_Trees" />
+    <configuration name="Tree_653_Two_Sum_IV_Input_is_a_BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tree.easy.Tree_653_Two_Sum_IV_Input_is_a_BST" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -404,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tree_108_convert_sorted_array_to_binary_search_tree" />
       <item itemvalue="Application.Tree_637_Average_of_Levels_in_Binary_Tree" />
-      <item itemvalue="Application.Tree_872_Leaf_Similar_Trees" />
-      <item itemvalue="Application.Tree_145_Binary_Tree_Postorder_Traversal" />
-      <item itemvalue="Application.Tree_144_Binary_Tree_Preorder_Traversal" />
+      <item itemvalue="Application.Tree_653_Two_Sum_IV_Input_is_a_BST" />
+      <item itemvalue="Application.Tree_257_Binary_Tree_Paths" />
+      <item itemvalue="Application.Tree_606_Construct_String_from_Binary_Tree" />
+      <item itemvalue="Application.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tree_144_Binary_Tree_Preorder_Traversal" />
-        <item itemvalue="Application.Tree_145_Binary_Tree_Postorder_Traversal" />
+        <item itemvalue="Application.Tree_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree" />
+        <item itemvalue="Application.Tree_606_Construct_String_from_Binary_Tree" />
+        <item itemvalue="Application.Tree_257_Binary_Tree_Paths" />
         <item itemvalue="Application.Tree_637_Average_of_Levels_in_Binary_Tree" />
-        <item itemvalue="Application.Tree_872_Leaf_Similar_Trees" />
-        <item itemvalue="Application.Tree_108_convert_sorted_array_to_binary_search_tree" />
+        <item itemvalue="Application.Tree_653_Two_Sum_IV_Input_is_a_BST" />
       </list>
     </recent_temporary>
   </component>
