@@ -26,19 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/model/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/linkedlist/easy/LinkedList_1290_Convert_Binary_Number_in_a_Linked_List_to_Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/linkedlist/easy/LinkedList_206_Reverse_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/linkedlist/easy/LinkedList_237_Delete_Node_in_a_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/linkedlist/easy/LinkedList_876_Middle_of_the_Linked_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/linkedlist/easy/LinkedList_203_Remove_Linked_List_Elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/linkedlist/easy/LinkedList_83_Remove_Duplicates_from_Sorted_List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/easy/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/easy/MergeTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/easy/MergeTwoLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/easy/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/easy/MergeTwoLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/medium/MEDIUM_2_Add_Two_Numbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +110,7 @@
       <recent name="test180105" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedList_206_Reverse_Linked_List">
+  <component name="RunManager" selected="Application.LinkedList_83_Remove_Duplicates_from_Sorted_List">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -296,8 +286,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedList_203_Remove_Linked_List_Elements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.linkedlist.easy.LinkedList_203_Remove_Linked_List_Elements" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeNZ.tags.linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedList_206_Reverse_Linked_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.linkedlist.easy.LinkedList_206_Reverse_Linked_List" />
+      <module name="SomeTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodeNZ.tags.linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList_83_Remove_Duplicates_from_Sorted_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.linkedlist.easy.LinkedList_83_Remove_Duplicates_from_Sorted_List" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -317,34 +335,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcodeNZ.tags.linkedlist.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Medium_2_Add_Two_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.medium.Medium_2_Add_Two_Numbers" />
-      <module name="SomeTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodeNZ.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tree_100_Same_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.tree.easy.Tree_100_Same_Tree" />
-      <module name="SomeTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tags.tree.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,19 +399,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tree_100_Same_Tree" />
-      <item itemvalue="Application.Medium_2_Add_Two_Numbers" />
       <item itemvalue="Application.LinkedList_1290_Convert_Binary_Number_in_a_Linked_List_to_Integer" />
       <item itemvalue="Application.LinkedList_876_Middle_of_the_Linked_List" />
       <item itemvalue="Application.LinkedList_206_Reverse_Linked_List" />
+      <item itemvalue="Application.LinkedList_203_Remove_Linked_List_Elements" />
+      <item itemvalue="Application.LinkedList_83_Remove_Duplicates_from_Sorted_List" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList_83_Remove_Duplicates_from_Sorted_List" />
+        <item itemvalue="Application.LinkedList_203_Remove_Linked_List_Elements" />
         <item itemvalue="Application.LinkedList_206_Reverse_Linked_List" />
         <item itemvalue="Application.LinkedList_876_Middle_of_the_Linked_List" />
         <item itemvalue="Application.LinkedList_1290_Convert_Binary_Number_in_a_Linked_List_to_Integer" />
-        <item itemvalue="Application.Medium_2_Add_Two_Numbers" />
-        <item itemvalue="Application.Tree_100_Same_Tree" />
       </list>
     </recent_temporary>
   </component>
