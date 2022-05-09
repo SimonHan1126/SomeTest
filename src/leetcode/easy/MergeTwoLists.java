@@ -1,13 +1,6 @@
 package leetcode.easy;
 
-class ListNode {
-	int val;
-	ListNode next;
-
-	ListNode(int x) {
-		val = x;
-	}
-}
+import leetcodeNZ.model.ListNode;
 
 public class MergeTwoLists {
     /*
@@ -15,7 +8,7 @@ public class MergeTwoLists {
      * @param l2: ListNode l2 is the head of the linked list
      * @return: ListNode head of linked list
      */
-	public ListNode mergeTwoLists2(ListNode l1, ListNode l2) 
+	public ListNode mergeTwoLists2(ListNode l1, ListNode l2)
 	{
 	      if(l1 == null) return l2;
 	      if(l2 == null) return l1;

@@ -2,6 +2,8 @@ package leetcodeNZ.medium;
 
 import java.util.Stack;
 
+import leetcodeNZ.model.ListNode;
+
 /**
  * Created by hanshihui on 16/01/19.
  *
@@ -18,42 +20,7 @@ import java.util.Stack;
  Explanation: 342 + 465 = 807.
  */
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-}
-
 class Medium_2_Add_Two_Numbers {
-    private ListNode insertNode(int[] arr)
-    {
-        if(arr == null || arr.length <= 0)
-        {
-            return null;
-        }
-
-        ListNode node = null;
-        ListNode tempNode = null;
-        for(int i : arr)
-        {
-            if(node == null)
-            {
-                node = new ListNode(i);
-            }
-            else
-            {
-                tempNode = node;
-                while (tempNode.next != null)
-                {
-                    tempNode = tempNode.next;
-                }
-
-                tempNode.next = new ListNode(i);
-            }
-        }
-
-        return node;
-    }
 
 //    public ListNode addTwoNumbers(ListNode node1, ListNode node2) {
 //        long listNodeToInt1 = 0;
@@ -163,9 +130,9 @@ class Medium_2_Add_Two_Numbers {
 //        int[] array1 = {9};
 //        int[] array2 = {1,9,9,9,9,9,9,9,9,9};
         Medium_2_Add_Two_Numbers m = new Medium_2_Add_Two_Numbers();
-        ListNode node2 = m.insertNode(array1);
+        ListNode node2 = ListNode.insertNode(array1);
 
-        ListNode node5 = m.insertNode(array2);
+        ListNode node5 = ListNode.insertNode(array2);
 
         ListNode resultNode = m.addTwoNumbers(node2,node5);
         System.out.println("&&&&&&&&&&&&&&&&&");
