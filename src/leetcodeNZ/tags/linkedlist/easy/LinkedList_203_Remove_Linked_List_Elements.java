@@ -52,16 +52,10 @@ public class LinkedList_203_Remove_Linked_List_Elements {
 //    }
 
     public ListNode removeElements(ListNode head, int val) {
-        if(head == null) {
-            System.out.println("111111");
-            return null;
-        }
-//        System.out.println("111 head " + head.val);
+        if(head == null) return null;
         ListNode next = removeElements(head.next, val);
-        System.out.println("222 next " + (next == null ? "null" : next.val) + " head " + head.val);
         if(head.val == val) return next;
         head.next = next;
-//        System.out.println("333 next " + (next == null ? "null" : next.val) + " head " + head.val);
         return head;
     }
 
