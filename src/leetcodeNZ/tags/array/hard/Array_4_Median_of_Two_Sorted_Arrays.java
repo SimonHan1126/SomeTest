@@ -1,4 +1,4 @@
-package leetcodeNZ.Array;
+package leetcodeNZ.tags.array.hard;
 
 /**
  * @author Simon-the-coder
@@ -6,8 +6,13 @@ package leetcodeNZ.Array;
  * @TO_DO
  */
 
+import java.lang.reflect.Array;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
@@ -53,33 +58,34 @@ import java.util.LinkedList;
  * 1 <= m + n <= 2000
  * -1000000 <= nums1[i], nums2[i] <= 1000000
  */
-public class Hard_4_Median_of_Two_Sorted_Arrays {
-
-    private double doubleFormat(double d) {
-        DecimalFormat df = new DecimalFormat("#.##");
-        return Double.valueOf(df.format(d));
-    }
+public class Array_4_Median_of_Two_Sorted_Arrays {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         double result = 0;
-        if (nums1 == null) {
-            nums1 = new int[0];
-        }
-        if (nums2 == null) {
-            nums2 = new int[0];
-        }
-        int length1 = nums1.length;
-        int length2 = nums2.length;
+        List list = new ArrayList<>();
+        int num1Length = nums1.length;
+        int num2Length = nums2.length;
+        if (num1Length == 0) Collections.addAll(list, nums2);
+        if (num2Length == 0) Collections.addAll(list, nums1);
+        if (num1Length > 0 && num2Length > 0) {
+            for (int i = 0; i < num1Length; i++) {
+                int tempNum1Item = nums1[i];
+                boolean isInsert = false;
+                for (int j = 0; j < num2Length; j++) {
+                    int tempNum2Item = nums2[j];
+                    if (tempNum2Item < tempNum1Item) {
 
-        if (length1 <= 0 && length2 <= 0) {
-            return doubleFormat(0);
+                    }
+                }
+            }
         }
-
-        LinkedList<String> list = new LinkedList();
-        list.remove();
-
         return result;
     }
 
-
+    public static void main(String[] args) {
+        int num1[] = {1, 2};
+        int num2[] = {3, 4};
+        Array_4_Median_of_Two_Sorted_Arrays object = new Array_4_Median_of_Two_Sorted_Arrays();
+        System.out.println(object.findMedianSortedArrays(num1, num2));
+    }
 }
