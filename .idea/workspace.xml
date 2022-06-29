@@ -26,11 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/array/easy/Array_27_Remove_Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/array/medium/Array_11_Container_With_Most_Water.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/array/medium/Array_15_3Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/itextpdf_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/itextpdf-5.1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/Array/Hard_4_Median_of_Two_Sorted_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/array/hard/Array_4_Median_of_Two_Sorted_Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SomeTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SomeTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tags/array/medium/Array_11_Container_With_Most_Water.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/tags/array/medium/Array_11_Container_With_Most_Water.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/tags/array/medium/Array_15_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/array/medium/Array_15_3Sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,9 +104,9 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$/src/youtubeSrtToTxt/youtubeSrtFile" />
       <recent name="$PROJECT_DIR$/src/test180105" />
-      <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/execl" />
     </key>
@@ -113,7 +115,7 @@
       <recent name="test180105" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array_11_Container_With_Most_Water">
+  <component name="RunManager" selected="Application.JpgToPdf">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -303,13 +305,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TIQ_118_Pascal_s_Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.topInterviewQuestions.TIQ_118_Pascal_s_Triangle" />
+    <configuration name="JpgToPdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imagesToPDF.JpgToPdf" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodeNZ.tags.topInterviewQuestions.*" />
+          <option name="PATTERN" value="imagesToPDF.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,19 +404,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TIQ_118_Pascal_s_Triangle" />
       <item itemvalue="Application.TIQ_121_Best_Time_to_Buy_and_Sell_Stock" />
       <item itemvalue="Application.TIQ_125_Valid_Palindrome" />
       <item itemvalue="Application.Array_4_Median_of_Two_Sorted_Arrays" />
       <item itemvalue="Application.Array_11_Container_With_Most_Water" />
+      <item itemvalue="Application.JpgToPdf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JpgToPdf" />
         <item itemvalue="Application.Array_11_Container_With_Most_Water" />
         <item itemvalue="Application.Array_4_Median_of_Two_Sorted_Arrays" />
         <item itemvalue="Application.TIQ_125_Valid_Palindrome" />
         <item itemvalue="Application.TIQ_121_Best_Time_to_Buy_and_Sell_Stock" />
-        <item itemvalue="Application.TIQ_118_Pascal_s_Triangle" />
       </list>
     </recent_temporary>
   </component>
