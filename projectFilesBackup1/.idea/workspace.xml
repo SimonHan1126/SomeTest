@@ -26,10 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281d2401-b83c-4f06-babf-7b29bc5e3ac0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json/JsonObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/itextpdf_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/itextpdf-5.1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SomeTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SomeTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeNZ/tags/array/medium/Array_11_Container_With_Most_Water.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcodeNZ/tags/array/medium/Array_11_Container_With_Most_Water.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagesToPDF/JpgToPdf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeNZ/tags/array/medium/Array_15_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeNZ/tags/array/medium/Array_15_3Sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,7 @@
     <expand />
     <select />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -79,15 +83,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="cidr.known.project.marker" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcodeNZ/tree/easy" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -113,7 +115,7 @@
       <recent name="test180105" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JsonObject">
+  <component name="RunManager" selected="Application.JpgToPdf">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -317,13 +319,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.JsonObject" />
+    <configuration name="TIQ_121_Best_Time_to_Buy_and_Sell_Stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeNZ.tags.topInterviewQuestions.TIQ_121_Best_Time_to_Buy_and_Sell_Stock" />
       <module name="SomeTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.*" />
+          <option name="PATTERN" value="leetcodeNZ.tags.topInterviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,6 +362,34 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -374,19 +404,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TIQ_121_Best_Time_to_Buy_and_Sell_Stock" />
       <item itemvalue="Application.TIQ_125_Valid_Palindrome" />
       <item itemvalue="Application.Array_4_Median_of_Two_Sorted_Arrays" />
       <item itemvalue="Application.Array_11_Container_With_Most_Water" />
       <item itemvalue="Application.JpgToPdf" />
-      <item itemvalue="Application.JsonObject" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JsonObject" />
         <item itemvalue="Application.JpgToPdf" />
         <item itemvalue="Application.Array_11_Container_With_Most_Water" />
         <item itemvalue="Application.Array_4_Median_of_Two_Sorted_Arrays" />
         <item itemvalue="Application.TIQ_125_Valid_Palindrome" />
+        <item itemvalue="Application.TIQ_121_Best_Time_to_Buy_and_Sell_Stock" />
       </list>
     </recent_temporary>
   </component>
